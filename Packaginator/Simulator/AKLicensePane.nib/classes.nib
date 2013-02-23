@@ -1,0 +1,20 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {switchLicenseLanguage = id; }; 
+            CLASS = AKLicensePaneController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBpopupLanguages_" = id; "IBscrollView_" = id; "IBtextView_" = id; }; 
+            SUPERCLASS = AKPaneController; 
+        }, 
+        {
+            CLASS = AKPaneController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"mainController_" = id; "relativeRootView_" = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = PBScrollView; LANGUAGE = ObjC; SUPERCLASS = NSScrollView; }
+    ); 
+    IBVersion = 1; 
+}

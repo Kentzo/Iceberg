@@ -1,0 +1,46 @@
+tell application "Iceberg"
+	
+	set tDocument to the first document
+	
+	set tProject to project of tDocument
+	
+	-- Build Location
+	
+	set build_location of tProject to "/toto/titi"
+	
+	(*
+		OPTIONS
+	*)
+	
+	-- remove DS_Store
+	
+	set remove_DS_Store_flag of tProject to no
+	
+	set remove_DS_Store_flag of tProject to yes
+	
+	-- remove pbdevelopment.plist
+	
+	set remove_pbdevelopment_flag of tProject to no
+	
+	set remove_pbdevelopment_flag of tProject to yes
+	
+	-- remove CVS Folders
+	
+	set remove_CVS_folders_flag of tProject to no
+	
+	set remove_CVS_folders_flag of tProject to yes
+	
+	-- Puma Compatiblity
+	
+	set puma_compatibility_flag of tProject to no
+	
+	set puma_compatibility_flag of tProject to yes
+	
+	(*
+		COMMENTS
+	*)
+	
+	set comments of tProject to "toto"
+	
+	
+end tell

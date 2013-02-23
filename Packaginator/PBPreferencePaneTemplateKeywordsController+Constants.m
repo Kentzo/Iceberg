@@ -1,0 +1,3 @@
+#import "PBPreferencePaneTemplateKeywordsController+Constants.h"
+
+NSString * const PBPREFERENCEPANE_TEMPLATEKEYWORDS_NOTIFICATION_DEFAULTS_DIDCHANGE=@"templateKeywordsDefaultsDidChange";

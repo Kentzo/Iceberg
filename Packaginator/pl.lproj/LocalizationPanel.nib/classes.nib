@@ -1,0 +1,14 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {
+            ACTIONS = {endDialog = id; setLanguage = id; }; 
+            CLASS = PBLocalizationPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBaddButton_" = id; "IBcomboBox_" = id; "IBwindow_" = id; "delegate_" = id; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

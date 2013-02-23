@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Name</key>
+    <string>ProjectName</string>
+    <key>Settings</key>
+    <dict/>
+    <key>Hierarchy</key>
+    <dict>
+		<key>Attributes</key>
+		<dict>
+			<key>Components</key>
+			<array>
+				<dict>
+					<key>Attributes</key>
+					<dict>
+						<key>Files</key>
+						<array/>
+						<key>Resources</key>
+						<array/>
+						<key>Settings</key>
+						<dict/>
+					</dict>
+					<key>Name</key>
+					<string>titi.pkg</string>
+					<key>Type</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+			<key>Settings</key>
+			<dict/>
+		</dict>
+		<key>Name</key>
+		<string>toto.mpkg</string>
+		<key>Type</key>
+		<integer>0</integer>
+	</dict>
+</dict>
+</plist>

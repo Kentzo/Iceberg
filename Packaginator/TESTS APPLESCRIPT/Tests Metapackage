@@ -1,0 +1,70 @@
+tell application "Iceberg"
+	
+	set tDocument to the first document
+	
+	set tRootComponent to the root_component of tDocument
+	
+	set tFirstComponent to the first component in tRootComponent
+	
+	(*
+		TESTS OF ACCESSORS
+	*)
+	
+	-- attribute (selected, unselected, required)
+	
+	set attribute of tFirstComponent to unselected
+	
+	set attribute of tFirstComponent to required
+	
+	set attribute of tFirstComponent to selected
+	
+	-- state (yes, no)
+	
+	set state of tFirstComponent to no
+	
+	set state of tFirstComponent to yes
+	
+	-- name
+	
+	set tSavedName to name of tFirstComponent
+	
+	set name of tFirstComponent to "toto"
+	
+	set name of tFirstComponent to tSavedName
+	
+	(*
+		ACCESS BY NAME
+	*)
+	
+	-- set tComponent1 to component "Component 1" in tRootComponent
+	
+	-- set tName to the name of tComponent1
+	
+	(*
+		DUPLICATION OF COMPONENT
+	*)
+	
+	-- A COMPLETER
+	
+	(*
+		TESTS OF HIERARCHY MANAGEMENT
+	*)
+	
+	-- Duplicate a component
+	
+	move the first component of tRootComponent to the end in tRootComponent
+	
+	-- Deletion of All components
+	
+	-- delete components of tRootComponent
+	
+	-- Creation of a metapackage
+	
+	-- A COMPLETE
+	
+	-- Deletions of One component
+	
+	-- A COMPLETER
+	
+	
+end tell

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
+<plist version="0.9">
+<array>
+	<dict>
+		<key>Class Name</key>
+		<string>AKWelcomePaneController</string>
+		<key>Nib Name</key>
+		<string>AKWelcomePane</string>
+		<key>Pane Title</key>
+		<string>SplashPageTitle</string>
+                <key>List Title</key>
+		<string>PageMatrixIntroduction</string>
+                <key>Plugin Name</key>
+		<string>Introduction</string>
+	</dict>
+	<dict>
+		<key>Class Name</key>
+		<string>AKReadMePaneController</string>
+		<key>Nib Name</key>
+		<string>AKReadMePane</string>
+		<key>Pane Title</key>
+		<string>ReadMePageTitle</string>
+                <key>List Title</key>
+		<string>PageMatrixReadMe</string>
+                <key>Plugin Name</key>
+		<string>ReadMe</string>
+	</dict>
+        <dict>
+		<key>Class Name</key>
+		<string>AKLicensePaneController</string>
+		<key>Nib Name</key>
+		<string>AKLicensePane</string>
+		<key>Pane Title</key>
+		<string>LicensePageTitle</string>
+                <key>List Title</key>
+		<string>PageMatrixLicense</string>
+                <key>Plugin Name</key>
+		<string>License</string>
+	</dict>
+        <dict>
+		<key>Class Name</key>
+		<string></string>
+		<key>Nib Name</key>
+		<string></string>
+		<key>Pane Title</key>
+		<string></string>
+                <key>List Title</key>
+		<string>PageMatrixTargetSelect</string>
+                <key>Plugin Name</key>
+		<string>TargetSelect</string>
+	</dict>
+        <dict>
+		<key>Class Name</key>
+		<string></string>
+		<key>Nib Name</key>
+		<string>AKNoPane</string>
+		<key>Pane Title</key>
+		<string></string>
+                <key>List Title</key>
+		<string>PageMatrixInstallType</string>
+                <key>Plugin Name</key>
+		<string>PackageSelection</string>
+	</dict>
+        <dict>
+		<key>Class Name</key>
+		<string></string>
+		<key>Nib Name</key>
+		<string></string>
+		<key></key>
+		<string>Conclusion</string>
+                <key>List Title</key>
+		<string>PageMatrixInstalling</string>
+                <key>Plugin Name</key>
+		<string>Install</string>
+	</dict>
+        <dict>
+		<key>Class Name</key>
+		<string></string>
+		<key>Nib Name</key>
+		<string></string>
+		<key>Pane Title</key>
+		<string></string>
+                <key>List Title</key>
+		<string>PageMatrixFinish</string>
+                <key>Plugin Name</key>
+		<string>Summary</string>
+	</dict>
+</array>
+</plist>

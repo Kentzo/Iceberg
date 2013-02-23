@@ -1,0 +1,56 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = PBCenteredLabelView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            CLASS = PBController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBview_" = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = PBGrayedCenteredPopupButton; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSPopUpButton; 
+        }, 
+        {
+            ACTIONS = {delete = id; }; 
+            CLASS = PBOutlineView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSOutlineView; 
+        }, 
+        {
+            ACTIONS = {
+                addFile = id; 
+                contract = id; 
+                delete = id; 
+                endFileSheet = id; 
+                expand = id; 
+                expandOneLevel = id; 
+                newFolder = id; 
+                revealInFinder = id; 
+                selectDefaultLocationPath = id; 
+                showInfo = id; 
+                switchImportPackageReferenceStyle = id; 
+                updateFiles = id; 
+            }; 
+            CLASS = PBPackageFilesController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBcompress_" = id; 
+                "IBdefaultLocationPath_" = id; 
+                "IBfileSheet_" = id; 
+                "IBimportedReferencePopupButton_" = id; 
+                "IBimportedView_" = id; 
+                "IBoutlineView_" = id; 
+                "IBownerAndGroup_" = id; 
+                "IBreferenceStyle_" = id; 
+                "IBsetButton_" = id; 
+                "IBsplitForks_" = id; 
+            }; 
+            SUPERCLASS = PBController; 
+        }, 
+        {CLASS = PBTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }
+    ); 
+    IBVersion = 1; 
+}

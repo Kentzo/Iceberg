@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Classes</key>
+	<dict>
+		<key>NSApplication</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>defaultPermissionsMode</key>
+				<dict>
+					<key>Description</key>
+					<string>Keep or don't keep default permissions mode when adding files to an archive</string>
+					<key>Name</key>
+					<string>default_permissions_mode</string>
+				</dict>
+				<key>defaultReferenceStyle</key>
+				<dict>
+					<key>Description</key>
+					<string>Default reference style when adding files to an archive ("Global" or "Relative")</string>
+					<key>Name</key>
+					<string>default_reference_style</string>
+				</dict>
+				<key>showFilesCustomizationDialog</key>
+				<dict>
+					<key>Description</key>
+					<string>Show or don't show the customization dialogs when adding files to the Files archive</string>
+					<key>Name</key>
+					<string>show_files_customization_dialog</string>
+				</dict>
+				<key>copyPackageWhenImporting</key>
+				<dict>
+					<key>Description</key>
+					<string>Copy Package when importing it in a project.</string>
+					<key>Name</key>
+					<string>copy_package_when_importing_flag</string>
+				</dict>
+				<key>importMetapackageComponents</key>
+				<dict>
+					<key>Description</key>
+					<string>Import Package and Metapackage components when importing a Metapackage</string>
+					<key>Name</key>
+					<string>import_metapackage_components_flag</string>
+				</dict>
+				<key>saveUnsavedProject</key>
+				<dict>
+					<key>Description</key>
+					<string>When to save unsaved project before build.</string>
+					<key>Name</key>
+					<string>save_unsaved_project</string>
+				</dict>
+				<key>showBuildWindow</key>
+				<dict>
+					<key>Description</key>
+					<string>When to show the build window</string>
+					<key>Name</key>
+					<string>show_build_window_during_builds</string>
+				</dict>
+				<key>hideBuildWindow</key>
+				<dict>
+					<key>Description</key>
+					<string>When to hide the build window</string>
+					<key>Name</key>
+					<string>hide_build_window_after_builds</string>
+				</dict>
+				<key>scratchFolderLocation</key>
+				<dict>
+					<key>Description</key>
+					<string>Location of the Scratch Folder.</string>
+					<key>Name</key>
+					<string>scratch_folder_location</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Iceberg's top level scripting object.</string>
+			<key>Name</key>
+			<string>application</string>
+			<key>PluralName</key>
+			<string>applications</string>
+		</dict>
+		<key>PB_AS_Documents</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>alignment</key>
+				<dict>
+						<key>Description</key>
+						<string>Alignment of the background image</string>
+						<key>Name</key>
+						<string>image_alignment</string>
+				</dict>
+				<key>scaling</key>
+				<dict>
+						<key>Description</key>
+						<string>Scaling of the background image</string>
+						<key>Name</key>
+						<string>image_scaling</string>
+				</dict>
+				<key>mode</key>
+				<dict>
+						<key>Description</key>
+						<string>Mode of the background image </string>
+						<key>Name</key>
+						<string>image_mode</string>
+				</dict>
+				<key>path</key>
+				<dict>
+						<key>Description</key>
+						<string>Path of the background image</string>
+						<key>Name</key>
+						<string>image_path</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>documents of a component</string>
+			<key>Name</key>
+			<string>component_documents</string>
+		</dict>
+		<key>PB_AS_Settings</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+                            <key>displayName</key>
+                            <dict>
+                                    <key>Description</key>
+                                    <string>Display name of the component</string>
+                                    <key>Name</key>
+                                    <string>display_name</string>
+                            </dict>
+                            <key>identifier</key>
+                            <dict>
+                                    <key>Description</key>
+                                    <string>Bundle identifier of the component</string>
+                                    <key>Name</key>
+                                    <string>identifier</string>
+                            </dict>
+                            <key>getInfoString</key>
+                            <dict>
+                                    <key>Description</key>
+                                    <string>Get-Info string of the component</string>
+                                    <key>Name</key>
+                                    <string>get_info_string</string>
+                            </dict>
+                            <key>shortVersion</key>
+                            <dict>
+                                    <key>Description</key>
+                                    <string>short version of the component</string>
+                                    <key>Name</key>
+                                    <string>short_version</string>
+                            </dict>
+                            <key>minorVersion</key>
+                            <dict>
+                                    <key>Description</key>
+                                    <string>Minor Version of the component</string>
+                                    <key>Name</key>
+                                    <string>minor_version</string>
+                            </dict>
+                            <key>majorVersion</key>
+                            <dict>
+                                    <key>Description</key>
+                                    <string>Major Version of the component</string>
+                                    <key>Name</key>
+                                    <string>major_version</string>
+                            </dict>
+                            <key>iconFile</key>
+                            <dict>
+                                    <key>Description</key>
+                                    <string>Path of the icon</string>
+                                    <key>Name</key>
+                                    <string>icon_path</string>
+                            </dict>
+                            <key>restart</key>
+                            <dict>
+                                    <key>Description</key>
+                                    <string>Action to perform after installation</string>
+                                    <key>Name</key>
+                                    <string>restart_action</string>
+                            </dict>
+                            <key>authorization</key>
+                            <dict>
+                                    <key>Description</key>
+                                    <string>Required Authorization to install the component</string>
+                                    <key>Name</key>
+                                    <string>required_authorization</string>
+                            </dict>
+                            <key>required</key>
+                            <dict>
+                                    <key>Description</key>
+                                    <string>Required flag of the Package</string>
+                                    <key>Name</key>
+                                    <string>required_flag</string>
+                            </dict>
+                            <key>rootVolumeOnly</key>
+                            <dict>
+                                    <key>Description</key>
+                                    <string>Root Volume Only flag of the Package</string>
+                                    <key>Name</key>
+                                    <string>root_volume_only_flag</string>
+                            </dict>
+                            <key>overwriteDirectoryPermissions</key>
+                            <dict>
+                                    <key>Description</key>
+                                    <string>Overwrite Directory Permissions flag of the Package</string>
+                                    <key>Name</key>
+                                    <string>overwrite_directory_permissions_flag</string>
+                            </dict>
+                            <key>updateInstalledLanguagesOnly</key>
+                            <dict>
+                                    <key>Description</key>
+                                    <string>Update Installed Languages Only flag of the Package</string>
+                                    <key>Name</key>
+                                    <string>update_installed_languages_only_flag</string>
+                            </dict>
+                            <key>relocatable</key>
+                            <dict>
+                                    <key>Description</key>
+                                    <string>Relocatable flag of the Package</string>
+                                    <key>Name</key>
+                                    <string>relocatable_flag</string>
+                            </dict>
+                            <key>installFatBinaries</key>
+                            <dict>
+                                    <key>Description</key>
+                                    <string>Install Fat Binaries flag of the Package</string>
+                                    <key>Name</key>
+                                    <string>install_fat_binaries_flag</string>
+                            </dict>
+                            <key>allowRevertToPreviousVersions</key>
+                            <dict>
+                                    <key>Description</key>
+                                    <string>Allow Revert to Previous Versions flag of the Package</string>
+                                    <key>Name</key>
+                                    <string>allow_revert_back_flag</string>
+                            </dict>
+                            <key>followSymbolicLinks</key>
+                            <dict>
+                                    <key>Description</key>
+                                    <string>Follow Symbolic Links flag of the Package</string>
+                                    <key>Name</key>
+                                    <string>follow_symbolic_links_flag</string>
+                            </dict>
+			</dict>
+			<key>Description</key>
+			<string>Settings of a component</string>
+			<key>Name</key>
+			<string>component_settings</string>
+		</dict>
+                <key>PB_AS_LocalizedDescription</key>
+                <dict>
+                        <key>Description</key>
+			<string>Settings Localized description</string>
+			<key>Name</key>
+			<string>localized_description</string>
+                        <key>PluralName</key>
+			<string>localized_descriptions</string>
+                        <key>Attributes</key>
+			<dict>
+                            <key>name</key>
+                            <dict>
+                                    <key>Description</key>
+                                    <string>Description forthcoming</string>
+                                    <key>Name</key>
+                                    <string>name</string>
+                            </dict>
+                            <key>title</key>
+                            <dict>
+                                    <key>Description</key>
+                                    <string>Description Title</string>
+                                    <key>Name</key>
+                                    <string>title</string>
+                            </dict>
+                            <key>description</key>
+                            <dict>
+                                    <key>Description</key>
+                                    <string>Description</string>
+                                    <key>Name</key>
+                                    <string>description</string>
+                            </dict>
+                            <key>version</key>
+                            <dict>
+                                    <key>Description</key>
+                                    <string>Description Version</string>
+                                    <key>Name</key>
+                                    <string>version</string>
+                            </dict>
+                            <key>deleteWarning</key>
+                            <dict>
+                                    <key>Description</key>
+                                    <string>Delete Warning</string>
+                                    <key>Name</key>
+                                    <string>delete_warning</string>
+                            </dict>
+
+                        </dict>
+                </dict>
+                <key>PB_AS_Metapackage</key>
+		<dict>
+                        <key>Attributes</key>
+			<dict>
+				<key>componentsLocation</key>
+                                <dict>
+					<key>Description</key>
+					<string>Relative location of components on disk</string>
+					<key>Name</key>
+					<string>components_location</string>
+				</dict>
+                        </dict>
+                        <key>Description</key>
+			<string>A metapackage component</string>
+			<key>Name</key>
+			<string>metapackage</string>
+			<key>PluralName</key>
+			<string>metapackages</string>
+                </dict>
+                <key>PB_AS_Component</key>
+		<dict>
+                        <key>Attributes</key>
+			<dict>
+				<key>settings</key>
+                                <dict>
+					<key>Description</key>
+					<string>Settings of the component</string>
+					<key>Name</key>
+					<string>settings</string>
+				</dict>
+                                <key>documents</key>
+                                <dict>
+					<key>Description</key>
+					<string>Documents of the component</string>
+					<key>Name</key>
+					<string>documents</string>
+				</dict>
+                                <key>attribute</key>
+				<dict>
+					<key>Description</key>
+					<string>Attribute of the component</string>
+					<key>Name</key>
+					<string>attribute</string>
+				</dict>
+				<key>document</key>
+                                <dict>
+					<key>Description</key>
+					<string>Description Forthcoming</string>
+					<key>Name</key>
+					<string>document</string>
+				</dict>
+                                <key>name</key>
+				<dict>
+					<key>Description</key>
+					<string>Name of the component</string>
+					<key>Name</key>
+					<string>name</string>
+				</dict>
+				<key>state</key>
+				<dict>
+					<key>Description</key>
+					<string>State of the component</string>
+					<key>Name</key>
+					<string>state</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>A component of the project</string>
+			<key>Name</key>
+			<string>component</string>
+			<key>PluralName</key>
+			<string>components</string>
+		</dict>
+		<key>PB_AS_Project</key>
+		<dict>
+                        <key>Attributes</key>
+			<dict>
+                                <key>rootComponent</key>
+				<dict>
+					<key>Description</key>
+					<string>Root component of the project</string>
+					<key>Name</key>
+					<string>root_component</string>
+                                        <key>Sex</key>
+					<string>none</string>
+				</dict>
+                                <key>buildPumaCompatible</key>
+				<dict>
+					<key>Description</key>
+					<string>Build Mac OS X 10.1 compatible packages</string>
+					<key>Name</key>
+					<string>puma_compatibility_flag</string>
+                                        <key>Sex</key>
+					<string>none</string>
+				</dict>
+				<key>buildLocation</key>
+				<dict>
+					<key>Description</key>
+					<string>Build Location of the project</string>
+					<key>Name</key>
+					<string>build_location</string>
+                                        <key>Sex</key>
+					<string>none</string>
+				</dict>
+				<key>comments</key>
+				<dict>
+					<key>Description</key>
+					<string>Comments on the project</string>
+					<key>Name</key>
+					<string>comments</string>
+                                        <key>Sex</key>
+					<string>none</string>
+				</dict>
+				<key>removeCVSFolder</key>
+				<dict>
+					<key>Description</key>
+					<string>Remove all CVS folders in the pax archive.</string>
+					<key>Name</key>
+					<string>remove_CVS_folders_flag</string>
+                                        <key>Sex</key>
+					<string>none</string>
+				</dict>
+				<key>removeDSStore</key>
+				<dict>
+					<key>Description</key>
+					<string>Remove all .DS_Store files in the pax archive.</string>
+					<key>Name</key>
+					<string>remove_DS_Store_flag</string>
+                                        <key>Sex</key>
+					<string>none</string>
+				</dict>
+				<key>removePBDevelopement</key>
+				<dict>
+					<key>Description</key>
+					<string>Remove all pbdevelopment.plist files in the pax archive.</string>
+					<key>Name</key>
+					<string>remove_pbdevelopment_flag</string>
+                                        <key>Sex</key>
+					<string>none</string>
+				</dict>
+                        </dict>
+			<key>Description</key>
+			<string>Description Forthcoming</string>
+			<key>Name</key>
+			<string>project</string>
+			<key>PluralName</key>
+			<string>projects</string>
+		</dict>
+                <key>PBDocument</key>
+		<dict>
+                        <key>Attributes</key>
+			<dict>
+				<key>project</key>
+				<dict>
+					<key>Description</key>
+					<string>Description Forthcoming</string>
+					<key>Name</key>
+					<string>project</string>
+                                        <key>Sex</key>
+					<string>none</string>
+				</dict>
+                        </dict>
+			<key>Description</key>
+			<string>An Iceberg document.</string>
+			<key>Name</key>
+			<string>document</string>
+			<key>PluralName</key>
+			<string>documents</string>
+		</dict>
+	</dict>
+	<key>Commands</key>
+	<dict>
+		<key>BuildProject</key>
+		<dict>
+			<key>Description</key>
+			<string>Build the project of a document.</string>
+			<key>Name</key>
+			<string>build</string>
+		</dict>
+		<key>CleanProject</key>
+		<dict>
+			<key>Description</key>
+			<string>Clean the build folder of a document.</string>
+			<key>Name</key>
+			<string>clean</string>
+		</dict>
+	</dict>
+        <key>Enumerations</key>
+        <dict>
+            <key>Package_Restart</key>
+            <dict>
+                <key>NoRestartRequired</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>none</string>
+                </dict>
+                <key>RecommendedRestart</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>recommended restart</string>
+                </dict>
+                <key>RequiredRestart</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>required restart</string>
+                </dict>
+                <key>ShutdownRequired</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>shutdown required</string>
+                </dict>
+                <key>LogoutRequired</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>logout required</string>
+                </dict>
+            </dict>
+            <key>Package_Authorization</key>
+            <dict>
+                <key>NoAuthorizationRequired</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>none</string>
+                </dict>
+                <key>AdminAuthorization</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>admin</string>
+                </dict>
+                <key>RootAuthorization</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>root</string>
+                </dict>
+            </dict>
+            <key>Image_Mode</key>
+            <dict>
+                <key>Default</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>default</string>
+                </dict>
+                <key>Custom</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>custom</string>
+                </dict>
+                <key>None</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>none</string>
+                </dict>
+            </dict>
+            <key>Image_Scaling</key>
+            <dict>
+                <key>Proportionally</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>proportionally</string>
+                </dict>
+                <key>ToFit</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>to fit</string>
+                </dict>
+                <key>None</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>none</string>
+                </dict>
+            </dict>
+            <key>Image_Alignment</key>
+            <dict>
+                <key>LeftTop</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>left top</string>
+                </dict>
+                <key>Top</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>top</string>
+                </dict>
+                <key>RightTop</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>right top</string>
+                </dict>
+                <key>Left</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>left</string>
+                </dict>
+                <key>Center</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>center</string>
+                </dict>
+                <key>Right</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>right</string>
+                </dict>
+                <key>LeftBottom</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>left bottom</string>
+                </dict>
+                <key>Bottom</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>bottom</string>
+                </dict>
+                <key>RightBottom</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>right bottom</string>
+                </dict>
+            </dict>
+            <key>Component_Attribute</key>
+            <dict>
+                <key>Selected</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>selected</string>
+                </dict>
+                <key>Required</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>required</string>
+                </dict>
+                <key>Unselected</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>unselected</string>
+                </dict>
+            </dict>
+            <key>ICEReferenceStyle</key>
+            <dict>
+                <key>ReferenceAbsolute</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Description Forthcoming</string>
+                    <key>Name</key>
+                    <string>absolute</string>
+                </dict>
+                <key>ReferenceProjectRelative</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Description Forthcoming</string>
+                    <key>Name</key>
+                    <string>project relative</string>
+                </dict>
+                <key>Unselected</key>
+                <dict>
+                    <key>Description</key>
+                    <string>Forthcoming</string>
+                    <key>Name</key>
+                    <string>unselected</string>
+                </dict>
+            </dict>
+        </dict>
+	<key>Description</key>
+	<string>Classes and Commands for working with Iceberg</string>
+	<key>Name</key>
+	<string>Iceberg suite</string>
+</dict>
+</plist>

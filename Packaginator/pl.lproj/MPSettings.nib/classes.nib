@@ -1,0 +1,49 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {CLASS = PBActionPopUpButton; LANGUAGE = ObjC; SUPERCLASS = NSPopUpButton; }, 
+        {
+            CLASS = PBController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBview_" = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = PBFileTextField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {
+            ACTIONS = {
+                openIcon = id; 
+                revealIconInFinder = id; 
+                selectIconPath = id; 
+                switchDescriptionLanguage = id; 
+                updateDescription = id; 
+                updateDisplayInformation = id; 
+                updateVersion = id; 
+            }; 
+            CLASS = PBMetaPackageSettingsController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBdescriptionDeleteWarning_" = id; 
+                "IBdescriptionDescription_" = id; 
+                "IBdescriptionLanguage_" = id; 
+                "IBdescriptionTitle_" = id; 
+                "IBdescriptionVersion_" = id; 
+                "IBdisplayInformationDisplayName_" = id; 
+                "IBdisplayInformationGetInfoString_" = id; 
+                "IBdisplayInformationIconPath_" = id; 
+                "IBdisplayInformationIdentifier_" = id; 
+                "IBdisplayInformationShortVersion_" = id; 
+                "IBversionMajor_" = id; 
+                "IBversionMinor_" = id; 
+            }; 
+            SUPERCLASS = PBController; 
+        }, 
+        {
+            ACTIONS = {takeReferenceStyle = id; }; 
+            CLASS = PBReferencedFileTextField; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = PBFileTextField; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,18 @@
+Title Safari 1.2
+Version 1.2
+Description Safari 1.2
+DefaultLocation /
+DeleteWarning 
+
+### Package Flags
+
+NeedsAuthorization YES
+Required NO
+Relocatable NO
+RequiresReboot YES
+UseUserMask NO
+OverwritePermissions NO
+InstallFat NO
+AllowBackRev NO
+RootVolumeOnly NO
+OnlyUpdateInstalledLanguages YES

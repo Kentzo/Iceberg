@@ -1,0 +1,37 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = PBController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBview_" = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                delete = id; 
+                endDialog = id; 
+                importPackages = id; 
+                newComponent = id; 
+                sortByAttribute = id; 
+                sortByName = id; 
+                switchRelative = id; 
+                updateComponents = id; 
+            }; 
+            CLASS = PBMetaPackageComponentsController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBarray_" = id; 
+                "IBattributePopupButton_" = id; 
+                "IBnameTextField_" = id; 
+                "IBokButton_" = id; 
+                "IBrelativePopupButton_" = id; 
+                "IBrelativeTextField_" = id; 
+                "IBtypePopupButton_" = id; 
+            }; 
+            SUPERCLASS = PBController; 
+        }, 
+        {CLASS = PBTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }
+    ); 
+    IBVersion = 1; 
+}

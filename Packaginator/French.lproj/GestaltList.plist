@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Architecture du Système</key>
+	<string>sysa</string>
+	<key>Attribut de Split OS</key>
+	<string>spos</string>
+	<key>Attribut du Système de Fichiers</key>
+	<string>fs  </string>
+	<key>Fonctions de Quicktime Streaming</key>
+	<string>qtsf</string>
+	<key>Taille de la RAM Physique</key>
+	<string>ram </string>
+	<key>Taille de la ROM</key>
+	<string>rom </string>
+	<key>Version de Quicktime</key>
+	<string>qtim</string>
+	<key>Version de Quicktime Streaming</key>
+	<string>qtst</string>
+	<key>Version de la ROM</key>
+	<string>romv</string>
+	<key>Version du Système</key>
+	<string>sysv</string>
+	<key>Vitesse d'horloge du Processeur</key>
+	<string>pclk</string>
+</dict>
+</plist>

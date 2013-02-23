@@ -1,0 +1,25 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = PBProjectAssistantPaneController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"mainController_" = id; "relativeRootView_" = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {delete = id; }; 
+            CLASS = PBTableView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTableView; 
+        }, 
+        {
+            ACTIONS = {add = id; remove = id; }; 
+            CLASS = ScreenSaverPaneController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBarray_" = id; "IBpath_" = id; "IBremoveButton_" = id; }; 
+            SUPERCLASS = PBProjectAssistantPaneController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

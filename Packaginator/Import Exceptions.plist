@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>^\.DS_Store$</string>
+        <string>^preflight$</string>
+	<string>^postflight$</string>
+	<string>^preinstall$</string>
+	<string>^package_version$</string>
+        <string>^preupgrade$</string>
+        <string>^postinstall$</string>
+	<string>^postupgrade</string>
+        <string>\.pre_install$</string>
+	<string>\.pre_upgrade$</string>
+        <string>\.post_install$</string>
+	<string>\.post_upgrade$</string>
+        <string>^Description.plist$</string>
+        <string>^background\.</string>
+        <string>\.pkg$</string>
+        <string>\.list$</string>
+        <string>^Welcome\.</string>
+        <string>^ReadMe\.</string>
+        <string>^License\.</string>
+        <string>\.info$</string>
+        <string>\.pax$</string>
+        <string>\.pax\.gz$</string>
+        <string>\.bom$</string>
+        <string>\.sizes$</string>
+        <string>\.loc$</string>
+</array>
+</plist>

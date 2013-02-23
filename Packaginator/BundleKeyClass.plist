@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+        <string>NSString</string>
+        <key>CFBundleDisplayName</key>
+        <string>NSString</string>
+        <key>CFBundleExecutable</key>
+        <string>NSString</string>
+        <key>CFBundleGetInfoString</key>
+        <string>NSString</string>
+        <key>CFBundleIconFile</key>
+        <string>NSString</string>
+        <key>CFBundleIdentifier</key>
+        <string>NSString</string>
+        <key>CFBundleInfoDictionaryVersion</key>
+        <string>NSString</string>
+        <key>CFBundleName</key>
+        <string>NSString</string>
+        <key>CFBundlePackageType</key>
+        <string>NSString</string>
+        <key>CFBundleShortVersionString</key>
+        <string>NSString</string>
+        <key>CFBundleSignature</key>
+        <string>NSString</string>
+        <key>CFBundleVersion</key>
+        <string>NSString</string>
+        <key>LSBackgroundOnly</key>
+        <string>NSString</string>
+        <key>LSMinimumSystemVersion</key>
+        <string>NSString</string>
+        <key>LSMultipleInstancesProhibited</key>
+        <string>NSNumber</string>
+        <key>LSUIElement</key>
+        <string>NSString</string>
+        <key>LSUIPresentationMode</key>
+        <string>NSNumber</string>
+        <key>NSAppleScriptEnabled</key>
+        <string>NSString</string>
+        <key>NSHumanReadableCopyright</key>
+        <string>NSString</string>
+        <key>NSJavaNeeded</key>
+        <string>NSString</string>
+        <key>NSJavaRoot</key>
+        <string>NSString</string>
+        <key>NSMainNibFile</key>
+        <string>NSString</string>
+        <key>NSPrefPaneIconFile</key>
+        <string>NSString</string>
+        <key>NSPrefPaneIconLabel</key>
+        <string>NSString</string>
+        <key>NSPrincipalClass</key>
+        <string>NSString</string>
+</dict>
+</plist>

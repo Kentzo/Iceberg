@@ -1,0 +1,25 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = PBActionPopUpButton; LANGUAGE = ObjC; SUPERCLASS = NSPopUpButton; }, 
+        {CLASS = PBFileTextField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {
+            ACTIONS = {changeDefaults = id; }; 
+            CLASS = PBPreferencePaneController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBview_" = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = PBPreferencePaneImportController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBcopyComponentCheckBox_" = id; 
+                "IBimportReferenceStylePopUpButton_" = id; 
+                "IBimportSubComponentsCheckBox_" = id; 
+            }; 
+            SUPERCLASS = PBPreferencePaneController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

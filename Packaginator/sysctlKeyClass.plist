@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>hw.machine</string>
+        <string>hw.model</string>
+        <string>hw.ncpu</string>
+        <string>hw.physmem</string>
+        <string>hw.vectorunit</string>
+        <string>hw.busfrequency</string>
+        <string>hw.cpufrequency</string>
+        <string>kern.ostype</string>
+        <string>kern.osrelease</string>
+        <string>kern.osrevision</string>
+        <string>kern.hostname</string>
+        <string>kern.hostid</string>
+        <string>kern.clockrate</string>
+        <string>kern.netboot</string>
+</array >
+</plist>

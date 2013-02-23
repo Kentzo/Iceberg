@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F47DADB20A2F9E320059DF45 /* MDImporterProjectTemplate_Prefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCF630370AF2F00C91783 /* MDImporterProjectTemplate_Prefix.h */; };
+		F47DADB30A2F9E320059DF45 /* MDIPaneController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F1EAC6085F556F00EF4C0C /* MDIPaneController.h */; };
+		F47DADB40A2F9E320059DF45 /* ImageAndTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F44B36E4085FE874009D31FC /* ImageAndTextCell.h */; };
+		F47DADB50A2F9E320059DF45 /* PBTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AE83AD086E9E5E00952C2C /* PBTableView.h */; };
+		F47DADB60A2F9E320059DF45 /* PBProjectDictionaryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AE83AF086E9E9500952C2C /* PBProjectDictionaryManager.h */; };
+		F47DADB70A2F9E320059DF45 /* PBProjectAssistantEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AE83B1086E9EBD00952C2C /* PBProjectAssistantEngine.h */; };
+		F47DADB80A2F9E320059DF45 /* PBProjectAssistantPaneController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AE83B2086E9EBD00952C2C /* PBProjectAssistantPaneController.h */; };
+		F47DADB90A2F9E320059DF45 /* PBSharedConst.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AE83C3086EA4F100952C2C /* PBSharedConst.h */; };
+		F47DADBB0A2F9E320059DF45 /* MainPane.nib in Resources */ = {isa = PBXBuildFile; fileRef = F4F1EAC1085F550F00EF4C0C /* MainPane.nib */; };
+		F47DADBC0A2F9E320059DF45 /* PaneList.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4F1EACB085F566500EF4C0C /* PaneList.plist */; };
+		F47DADBD0A2F9E320059DF45 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F44B36E6085FEC8A009D31FC /* Localizable.strings */; };
+		F47DADBE0A2F9E320059DF45 /* DeletePushed.tif in Resources */ = {isa = PBXBuildFile; fileRef = F4A61C7F088AB57B00A49FFD /* DeletePushed.tif */; };
+		F47DADBF0A2F9E320059DF45 /* Delete.tif in Resources */ = {isa = PBXBuildFile; fileRef = F4A61C80088AB57B00A49FFD /* Delete.tif */; };
+		F47DADC00A2F9E320059DF45 /* AddPushed.tif in Resources */ = {isa = PBXBuildFile; fileRef = F4A61C81088AB57B00A49FFD /* AddPushed.tif */; };
+		F47DADC10A2F9E320059DF45 /* Add.tif in Resources */ = {isa = PBXBuildFile; fileRef = F4A61C82088AB57B00A49FFD /* Add.tif */; };
+		F47DADC30A2F9E320059DF45 /* MDIPaneController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F1EAC7085F556F00EF4C0C /* MDIPaneController.m */; };
+		F47DADC50A2F9E320059DF45 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF630370AF2F00C91783 /* MDImporterProjectTemplate_Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDImporterProjectTemplate_Prefix.h; sourceTree = "<group>"; };
+		F44B36E4085FE874009D31FC /* ImageAndTextCell.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ImageAndTextCell.h; path = /Developer/Examples/AppKit/DragNDropOutlineView/ImageAndTextCell.h; sourceTree = "<absolute>"; };
+		F44B36E7085FEC8A009D31FC /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F44B3DFD08600BC6009D31FC /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F44B3E0308600F63009D31FC /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/MainPane.nib; sourceTree = "<group>"; };
+		F47DADCB0A2F9E320059DF45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		F47DADCC0A2F9E320059DF45 /* Plugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Plugin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A61C7F088AB57B00A49FFD /* DeletePushed.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = DeletePushed.tif; path = ../../Images/DeletePushed.tif; sourceTree = SOURCE_ROOT; };
+		F4A61C80088AB57B00A49FFD /* Delete.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Delete.tif; path = ../../Images/Delete.tif; sourceTree = SOURCE_ROOT; };
+		F4A61C81088AB57B00A49FFD /* AddPushed.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = AddPushed.tif; path = ../../Images/AddPushed.tif; sourceTree = SOURCE_ROOT; };
+		F4A61C82088AB57B00A49FFD /* Add.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Add.tif; path = ../../Images/Add.tif; sourceTree = SOURCE_ROOT; };
+		F4AE83AD086E9E5E00952C2C /* PBTableView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PBTableView.h; path = ../../PBTableView.h; sourceTree = SOURCE_ROOT; };
+		F4AE83AF086E9E9500952C2C /* PBProjectDictionaryManager.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PBProjectDictionaryManager.h; path = ../../PBProjectDictionaryManager.h; sourceTree = SOURCE_ROOT; };
+		F4AE83B1086E9EBD00952C2C /* PBProjectAssistantEngine.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PBProjectAssistantEngine.h; path = "../../Project Creation Assistant/PBProjectAssistantEngine.h"; sourceTree = SOURCE_ROOT; };
+		F4AE83B2086E9EBD00952C2C /* PBProjectAssistantPaneController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PBProjectAssistantPaneController.h; path = "../../Project Creation Assistant/PBProjectAssistantPaneController.h"; sourceTree = SOURCE_ROOT; };
+		F4AE83C3086EA4F100952C2C /* PBSharedConst.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PBSharedConst.h; path = ../../PBSharedConst.h; sourceTree = SOURCE_ROOT; };
+		F4F1EAC2085F550F00EF4C0C /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainPane.nib; sourceTree = "<group>"; };
+		F4F1EAC6085F556F00EF4C0C /* MDIPaneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDIPaneController.h; sourceTree = "<group>"; };
+		F4F1EAC7085F556F00EF4C0C /* MDIPaneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDIPaneController.m; sourceTree = "<group>"; };
+		F4F1EACB085F566500EF4C0C /* PaneList.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = PaneList.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F47DADC40A2F9E320059DF45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F47DADC50A2F9E320059DF45 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* MDImporterProjectTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+				F47DADCB0A2F9E320059DF45 /* Info.plist */,
+			);
+			name = MDImporterProjectTemplate;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4A61C7F088AB57B00A49FFD /* DeletePushed.tif */,
+				F4A61C80088AB57B00A49FFD /* Delete.tif */,
+				F4A61C81088AB57B00A49FFD /* AddPushed.tif */,
+				F4A61C82088AB57B00A49FFD /* Add.tif */,
+				F44B36E6085FEC8A009D31FC /* Localizable.strings */,
+				F4F1EACB085F566500EF4C0C /* PaneList.plist */,
+				F4F1EAC1085F550F00EF4C0C /* MainPane.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F4AE83C3086EA4F100952C2C /* PBSharedConst.h */,
+				F4AE83AD086E9E5E00952C2C /* PBTableView.h */,
+				F44B36E4085FE874009D31FC /* ImageAndTextCell.h */,
+				F4F1EACA085F557900EF4C0C /* Kit */,
+				F4F1EAC6085F556F00EF4C0C /* MDIPaneController.h */,
+				F4F1EAC7085F556F00EF4C0C /* MDIPaneController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F47DADCC0A2F9E320059DF45 /* Plugin.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF630370AF2F00C91783 /* MDImporterProjectTemplate_Prefix.h */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		F4F1EACA085F557900EF4C0C /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				F4AE83AF086E9E9500952C2C /* PBProjectDictionaryManager.h */,
+				F4AE83B1086E9EBD00952C2C /* PBProjectAssistantEngine.h */,
+				F4AE83B2086E9EBD00952C2C /* PBProjectAssistantPaneController.h */,
+			);
+			name = Kit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F47DADB10A2F9E320059DF45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F47DADB20A2F9E320059DF45 /* MDImporterProjectTemplate_Prefix.h in Headers */,
+				F47DADB30A2F9E320059DF45 /* MDIPaneController.h in Headers */,
+				F47DADB40A2F9E320059DF45 /* ImageAndTextCell.h in Headers */,
+				F47DADB50A2F9E320059DF45 /* PBTableView.h in Headers */,
+				F47DADB60A2F9E320059DF45 /* PBProjectDictionaryManager.h in Headers */,
+				F47DADB70A2F9E320059DF45 /* PBProjectAssistantEngine.h in Headers */,
+				F47DADB80A2F9E320059DF45 /* PBProjectAssistantPaneController.h in Headers */,
+				F47DADB90A2F9E320059DF45 /* PBSharedConst.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F47DADB00A2F9E320059DF45 /* MDImporterProjectTemplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F47DADC70A2F9E320059DF45 /* Build configuration list for PBXNativeTarget "MDImporterProjectTemplate" */;
+			buildPhases = (
+				F47DADB10A2F9E320059DF45 /* Headers */,
+				F47DADBA0A2F9E320059DF45 /* Resources */,
+				F47DADC20A2F9E320059DF45 /* Sources */,
+				F47DADC40A2F9E320059DF45 /* Frameworks */,
+				F47DADC60A2F9E320059DF45 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDImporterProjectTemplate;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = MDImporterProjectTemplate;
+			productReference = F47DADCC0A2F9E320059DF45 /* Plugin.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F47DAD9D0A2F9C660059DF45 /* Build configuration list for PBXProject "MDImporterProjectTemplate" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* MDImporterProjectTemplate */;
+			projectDirPath = "";
+			targets = (
+				F47DADB00A2F9E320059DF45 /* MDImporterProjectTemplate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F47DADBA0A2F9E320059DF45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F47DADBB0A2F9E320059DF45 /* MainPane.nib in Resources */,
+				F47DADBC0A2F9E320059DF45 /* PaneList.plist in Resources */,
+				F47DADBD0A2F9E320059DF45 /* Localizable.strings in Resources */,
+				F47DADBE0A2F9E320059DF45 /* DeletePushed.tif in Resources */,
+				F47DADBF0A2F9E320059DF45 /* Delete.tif in Resources */,
+				F47DADC00A2F9E320059DF45 /* AddPushed.tif in Resources */,
+				F47DADC10A2F9E320059DF45 /* Add.tif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F47DADC60A2F9E320059DF45 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F47DADC20A2F9E320059DF45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F47DADC30A2F9E320059DF45 /* MDIPaneController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F44B36E6085FEC8A009D31FC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F44B36E7085FEC8A009D31FC /* English */,
+				F44B3DFD08600BC6009D31FC /* French */,
+			);
+			name = Localizable.strings;
+			sourceTree = SOURCE_ROOT;
+		};
+		F4F1EAC1085F550F00EF4C0C /* MainPane.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4F1EAC2085F550F00EF4C0C /* English */,
+				F44B3E0308600F63009D31FC /* French */,
+			);
+			name = MainPane.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F47DAD9E0A2F9C660059DF45 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_VERSION_ppc = 3.3;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.2;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.2.8.sdk;
+			};
+			name = Development;
+		};
+		F47DAD9F0A2F9C660059DF45 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_VERSION_ppc = 3.3;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.2;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.2.8.sdk;
+			};
+			name = Deployment;
+		};
+		F47DADA00A2F9C660059DF45 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_VERSION_ppc = 3.3;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.2;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.2.8.sdk;
+			};
+			name = Default;
+		};
+		F47DADC80A2F9E320059DF45 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = /Volumes/Work/Projects/Packaginator/build/Deployment/Iceberg.app/Contents/MacOS/Iceberg;
+				COPY_PHASE_STRIP = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MDImporterProjectTemplate_Prefix.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = Plugin;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		F47DADC90A2F9E320059DF45 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = /Volumes/Work/Projects/Packaginator/build/Deployment/Iceberg.app/Contents/MacOS/Iceberg;
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MDImporterProjectTemplate_Prefix.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = Plugin;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		F47DADCA0A2F9E320059DF45 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = /Volumes/Work/Projects/Packaginator/build/Deployment/Iceberg.app/Contents/MacOS/Iceberg;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MDImporterProjectTemplate_Prefix.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = Plugin;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F47DAD9D0A2F9C660059DF45 /* Build configuration list for PBXProject "MDImporterProjectTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F47DAD9E0A2F9C660059DF45 /* Development */,
+				F47DAD9F0A2F9C660059DF45 /* Deployment */,
+				F47DADA00A2F9C660059DF45 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F47DADC70A2F9E320059DF45 /* Build configuration list for PBXNativeTarget "MDImporterProjectTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F47DADC80A2F9E320059DF45 /* Development */,
+				F47DADC90A2F9E320059DF45 /* Deployment */,
+				F47DADCA0A2F9E320059DF45 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

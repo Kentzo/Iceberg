@@ -1,0 +1,1 @@
+selected, unselected, required icons: Arial Bold 11.5 Strong

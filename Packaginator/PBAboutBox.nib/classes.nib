@@ -1,0 +1,18 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = PBAboutBoxController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBscrollView_" = id; 
+                "IBtextView_" = id; 
+                "IBversion_" = id; 
+                "IBwindow_" = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = PBVersionSwitchView; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}

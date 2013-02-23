@@ -1,0 +1,98 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {CLASS = PBActionPopUpButton; LANGUAGE = ObjC; SUPERCLASS = NSPopUpButton; }, 
+        {CLASS = PBFileTextField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {
+            ACTIONS = {endDialog = id; switchAlertLanguage = id; updateAlert = id; }; 
+            CLASS = PBRequirementsController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBlabelField_" = id; 
+                "IBlevelPopupButton_" = id; 
+                "IBlocalizationPopupButton_" = id; 
+                "IBmessageField_" = id; 
+                "IBokButton_" = id; 
+                "IBtitleField_" = id; 
+                "IBwindow_" = id; 
+                "IORegistryController_" = id; 
+                "bundleController_" = id; 
+                "fileController_" = id; 
+                "gestaltController_" = id; 
+                "packageController_" = id; 
+                "plistController_" = id; 
+                "sysctlController_" = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {revealBundlePathInFinder = id; selectBundlePath = id; switchMode = id; }; 
+            CLASS = PBSpecificationBundleController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBbundleKey_" = id; 
+                "IBbundleMode_" = id; 
+                "IBbundlePath_" = id; 
+                "IBsubview_" = id; 
+            }; 
+            SUPERCLASS = PBSpecificationController; 
+        }, 
+        {
+            ACTIONS = {switchKey = id; switchType = id; }; 
+            CLASS = PBSpecificationController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBobjectField_" = id; 
+                "IBoperatorPopupButton_" = id; 
+                "IBtypePopupButton_" = id; 
+                "IBview_" = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {revealFilePathInFinder = id; selectFilePath = id; switchMode = id; }; 
+            CLASS = PBSpecificationFileController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBfileKey_" = id; 
+                "IBfileMode_" = id; 
+                "IBfilePath_" = id; 
+                "IBsubview_" = id; 
+            }; 
+            SUPERCLASS = PBSpecificationController; 
+        }, 
+        {
+            ACTIONS = {switchGestatltType = id; }; 
+            CLASS = PBSpecificationGestaltController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBgestaltSelectorField_" = id; "IBgestaltTypePopupButton_" = id; }; 
+            SUPERCLASS = PBSpecificationController; 
+        }, 
+        {
+            CLASS = PBSpecificationIORegistryController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = PBSpecificationController; 
+        }, 
+        {
+            CLASS = PBSpecificationPackageController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBbundleIdentifier_" = id; "IBkeyPopupButton_" = id; }; 
+            SUPERCLASS = PBSpecificationController; 
+        }, 
+        {
+            ACTIONS = {revealPlistPathInFinder = id; selectPlistPath = id; switchObjectType = id; }; 
+            CLASS = PBSpecificationPlistController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBplistKey_" = id; "IBplistPath_" = id; "IBplistType_" = id; }; 
+            SUPERCLASS = PBSpecificationController; 
+        }, 
+        {
+            CLASS = PBSpecificationSysctlController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBsysctlKey_" = id; }; 
+            SUPERCLASS = PBSpecificationController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

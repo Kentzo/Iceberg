@@ -1,0 +1,29 @@
+tell application "Iceberg"
+	
+	-- Default Reference Style
+	
+	set default_reference_style to project relative
+	
+	set default_reference_style to absolute
+	
+	-- Copy Package when importing
+	
+	set copy_package_when_importing_flag to yes
+	
+	set copy_package_when_importing_flag to no
+	
+	-- Import Metapackage components
+	
+	set import_metapackage_components_flag to yes
+	
+	set import_metapackage_components_flag to no
+	
+	-- Scratch folder (TEST A COMPLETER)
+	
+	-- Save Project before building
+	
+	set save_project_before_building_flag to yes
+	
+	set save_project_before_building_flag to no
+	
+end tell

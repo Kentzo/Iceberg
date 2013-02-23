@@ -1,0 +1,27 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = PBActionPopUpButton; LANGUAGE = ObjC; SUPERCLASS = NSPopUpButton; }, 
+        {CLASS = PBFileTextField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {
+            ACTIONS = {revealScratchInFinder = id; selectScratchPath = id; }; 
+            CLASS = PBPreferencePaneBuildController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBhideBuildWindowPopUpButton_" = id; 
+                "IBscratchPath_" = id; 
+                "IBshowBuildWindowPopUpButton_" = id; 
+                "IBunsavedProjectPopUpButton_" = id; 
+            }; 
+            SUPERCLASS = PBPreferencePaneController; 
+        }, 
+        {
+            ACTIONS = {changeDefaults = id; }; 
+            CLASS = PBPreferencePaneController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBview_" = id; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

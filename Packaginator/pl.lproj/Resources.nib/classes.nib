@@ -1,0 +1,67 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {CLASS = PBActionPopUpButton; LANGUAGE = ObjC; SUPERCLASS = NSPopUpButton; }, 
+        {
+            CLASS = PBController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBview_" = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = PBFileTextField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {CLASS = PBMatrix; LANGUAGE = ObjC; SUPERCLASS = NSMatrix; }, 
+        {
+            ACTIONS = {takeReferenceStyle = id; }; 
+            CLASS = PBReferencedFileTextField; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = PBFileTextField; 
+        }, 
+        {
+            ACTIONS = {
+                openImage = id; 
+                openLicense = id; 
+                openReadMe = id; 
+                openWelcome = id; 
+                revealImageInFinder = id; 
+                revealLicenseInFinder = id; 
+                revealReadMeInFinder = id; 
+                revealWelcomeInFinder = id; 
+                selectImagePath = id; 
+                selectLicensePath = id; 
+                selectReadMePath = id; 
+                selectWelcomePath = id; 
+                switchLicenseLanguage = id; 
+                switchLicenseTemplate = id; 
+                switchReadMeLanguage = id; 
+                switchWelcomeLanguage = id; 
+                updateImage = id; 
+                updateLicense = id; 
+                updateReadMe = id; 
+                updateWelcome = id; 
+            }; 
+            CLASS = PBResourcesController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBimageAlignment_" = id; 
+                "IBimageMode_" = id; 
+                "IBimagePath_" = id; 
+                "IBimageScaling_" = id; 
+                "IBlicenseArray_" = id; 
+                "IBlicenseLanguage_" = id; 
+                "IBlicenseMode_" = id; 
+                "IBlicensePath_" = id; 
+                "IBlicensePopup_" = id; 
+                "IBreadMeLanguage_" = id; 
+                "IBreadMeMode_" = id; 
+                "IBreadMePath_" = id; 
+                "IBwelcomeLanguage_" = id; 
+                "IBwelcomeMode_" = id; 
+                "IBwelcomePath_" = id; 
+            }; 
+            SUPERCLASS = PBController; 
+        }, 
+        {CLASS = PBTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }
+    ); 
+    IBVersion = 1; 
+}

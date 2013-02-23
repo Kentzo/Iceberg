@@ -1,0 +1,64 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MOViewListView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {hideWindow = id; showWindow = id; }; 
+            CLASS = PBBuildWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBdetailView_" = id; 
+                "IBoutlineView_" = id; 
+                "IBsplitView_" = id; 
+                "IBstatusLabel_" = id; 
+                "IBwindow_" = id; 
+                "document_" = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                build = id; 
+                changeName = id; 
+                delete = id; 
+                duplicate = id; 
+                group = id; 
+                importPackages = id; 
+                newComponent = id; 
+                rename = id; 
+                save = id; 
+                sortByAttribute = id; 
+                sortByName = id; 
+                switchAttribute = id; 
+                ungroup = id; 
+            }; 
+            CLASS = PBDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBdocumentProgressIndicator_" = id; 
+                "IBdocumentStatus_" = id; 
+                "IBicon_" = id; 
+                "IBname_" = id; 
+                "IBoutlineView_" = id; 
+                "IBpopupButton_" = id; 
+                "IBrightView_" = id; 
+                "IBtype_" = id; 
+                "IBviewListView_" = MOViewListView; 
+                "buildWindowController_" = id; 
+            }; 
+            SUPERCLASS = NSDocument; 
+        }, 
+        {
+            ACTIONS = {delete = id; }; 
+            CLASS = PBOutlineView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSOutlineView; 
+        }, 
+        {
+            CLASS = PBProgressIndicator; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSProgressIndicator; 
+        }
+    ); 
+    IBVersion = 1; 
+}

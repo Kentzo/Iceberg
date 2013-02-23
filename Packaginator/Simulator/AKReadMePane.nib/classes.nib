@@ -1,0 +1,19 @@
+{
+    IBClasses = (
+        {
+            CLASS = AKPaneController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"mainController_" = id; "relativeRootView_" = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = AKReadMePaneController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBtextView_" = id; }; 
+            SUPERCLASS = AKPaneController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = PBScrollView; LANGUAGE = ObjC; SUPERCLASS = NSScrollView; }
+    ); 
+    IBVersion = 1; 
+}

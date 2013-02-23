@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 38;
+	objects = {
+		014CEA4F0018CE4811CA2923 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				OPTIMIZATION_CFLAGS = "-O0";
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		014CEA500018CE4811CA2923 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//010
+//011
+//012
+//013
+//014
+//030
+//031
+//032
+//033
+//034
+		034768E6FF38A76511DB9C8B = {
+			isa = PBXExecutableFileReference;
+			path = freeze;
+			refType = 3;
+		};
+//030
+//031
+//032
+//033
+//034
+//080
+//081
+//082
+//083
+//084
+		08FB7793FE84155DC02AAC07 = {
+			buildStyles = (
+				014CEA4F0018CE4811CA2923,
+				014CEA500018CE4811CA2923,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 08FB7794FE84155DC02AAC07;
+			projectDirPath = "";
+			targets = (
+				08FB779FFE84155DC02AAC07,
+			);
+		};
+		08FB7794FE84155DC02AAC07 = {
+			children = (
+				08FB7795FE84155DC02AAC07,
+				C6859EA2029092E104C91782,
+				08FB779DFE84155DC02AAC07,
+				1AB674ADFE9D54B511CA2CBB,
+			);
+			isa = PBXGroup;
+			name = freeze;
+			refType = 4;
+		};
+		08FB7795FE84155DC02AAC07 = {
+			children = (
+				F46C9D8A05C46C83003D9778,
+				F4E8805B05C434D800632186,
+				F4E8805C05C434D800632186,
+				32A70AAB03705E1F00C91783,
+				08FB7796FE84155DC02AAC07,
+			);
+			isa = PBXGroup;
+			name = Source;
+			refType = 4;
+		};
+		08FB7796FE84155DC02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = main.m;
+			refType = 4;
+		};
+		08FB779DFE84155DC02AAC07 = {
+			children = (
+				F4E8804A05C432DB00632186,
+				08FB779EFE84155DC02AAC07,
+			);
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			refType = 4;
+		};
+		08FB779EFE84155DC02AAC07 = {
+			isa = PBXFrameworkReference;
+			name = Foundation.framework;
+			path = /System/Library/Frameworks/Foundation.framework;
+			refType = 0;
+		};
+		08FB779FFE84155DC02AAC07 = {
+			buildPhases = (
+				08FB77A0FE84155DC02AAC07,
+				08FB77A1FE84155DC02AAC07,
+				08FB77A3FE84155DC02AAC07,
+				08FB77A5FE84155DC02AAC07,
+				C6859EA4029092FD04C91782,
+			);
+			buildSettings = {
+				DEBUGGING_SYMBOLS = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = "";
+				OPTIMIZATION_CFLAGS = "-O3";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = freeze_Prefix.h;
+				PRODUCT_NAME = freeze;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+			};
+			dependencies = (
+			);
+			isa = PBXToolTarget;
+			name = freeze;
+			productInstallPath = "$(HOME)/bin";
+			productName = freeze;
+			productReference = 034768E6FF38A76511DB9C8B;
+		};
+		08FB77A0FE84155DC02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08FB77A1FE84155DC02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				08FB77A2FE84155DC02AAC07,
+				F4E8805E05C434D800632186,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08FB77A2FE84155DC02AAC07 = {
+			fileRef = 08FB7796FE84155DC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		08FB77A3FE84155DC02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				08FB77A4FE84155DC02AAC07,
+				F4E8804B05C432DB00632186,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08FB77A4FE84155DC02AAC07 = {
+			fileRef = 08FB779EFE84155DC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		08FB77A5FE84155DC02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+//080
+//081
+//082
+//083
+//084
+//1A0
+//1A1
+//1A2
+//1A3
+//1A4
+		1AB674ADFE9D54B511CA2CBB = {
+			children = (
+				034768E6FF38A76511DB9C8B,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+		};
+//1A0
+//1A1
+//1A2
+//1A3
+//1A4
+//320
+//321
+//322
+//323
+//324
+		32A70AAB03705E1F00C91783 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = freeze_Prefix.h;
+			refType = 4;
+		};
+//320
+//321
+//322
+//323
+//324
+//C60
+//C61
+//C62
+//C63
+//C64
+		C6859EA2029092E104C91782 = {
+			children = (
+				C6859EA3029092ED04C91782,
+			);
+			isa = PBXGroup;
+			name = Documentation;
+			refType = 4;
+		};
+		C6859EA3029092ED04C91782 = {
+			isa = PBXFileReference;
+			path = freeze.1;
+			refType = 4;
+		};
+		C6859EA4029092FD04C91782 = {
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				C6859EA50290930304C91782,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		C6859EA50290930304C91782 = {
+			fileRef = C6859EA3029092ED04C91782;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//C60
+//C61
+//C62
+//C63
+//C64
+//F40
+//F41
+//F42
+//F43
+//F44
+		F46C9D8A05C46C83003D9778 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = PBSharedConst.h;
+			path = ../Packaginator/PBSharedConst.h;
+			refType = 2;
+		};
+		F4E8804A05C432DB00632186 = {
+			isa = PBXFrameworkReference;
+			name = CoreFoundation.framework;
+			path = /System/Library/Frameworks/CoreFoundation.framework;
+			refType = 0;
+		};
+		F4E8804B05C432DB00632186 = {
+			fileRef = F4E8804A05C432DB00632186;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F4E8805B05C434D800632186 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = PBBuildObserver.h;
+			refType = 4;
+		};
+		F4E8805C05C434D800632186 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = PBBuildObserver.m;
+			refType = 4;
+		};
+		F4E8805E05C434D800632186 = {
+			fileRef = F4E8805C05C434D800632186;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 08FB7793FE84155DC02AAC07;
+}

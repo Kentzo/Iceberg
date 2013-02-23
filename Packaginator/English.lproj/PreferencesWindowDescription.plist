@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Order</key>
+        <array>
+            <string>preferencepane.files</string>
+            <string>preferencepane.import</string>
+            <string>preferencepane.build</string>
+            <string>preferencepane.templatekeywords</string>
+        </array>
+        <key>Descriptions</key>
+        <dict>
+            <key>preferencepane.files</key>
+            <dict>
+                <key>ClassName</key>
+                <string>PBPreferencePaneFilesController</string>
+                <key>Nib</key>
+                <string>PBPrefPaneFiles</string>
+                <key>Icon</key>
+                <string>Files_Prefs</string>
+                <key>Name</key>
+                <string>Files</string>
+            </dict>
+            <key>preferencepane.import</key>
+            <dict>
+                <key>ClassName</key>
+                <string>PBPreferencePaneImportController</string>
+                <key>Nib</key>
+                <string>PBPrefPaneImport</string>
+                <key>Icon</key>
+                <string>Import_Prefs</string>
+                <key>Name</key>
+                <string>Import</string>
+            </dict>
+            <key>preferencepane.build</key>
+            <dict>
+                <key>ClassName</key>
+                <string>PBPreferencePaneBuildController</string>
+                <key>Nib</key>
+                <string>PBPrefPaneBuild</string>
+                <key>Icon</key>
+                <string>Building_Prefs</string>
+                <key>Name</key>
+                <string>Building</string>
+            </dict>
+            <key>preferencepane.templatekeywords</key>
+            <dict>
+                <key>ClassName</key>
+                <string>PBPreferencePaneTemplateKeywordsController</string>
+                <key>Nib</key>
+                <string>PBPrefPaneTemplateKeywords</string>
+                <key>Icon</key>
+                <string>Templates_Prefs</string>
+                <key>Name</key>
+                <string>Templates</string>
+            </dict>
+        </dict>
+</dict>
+</plist>

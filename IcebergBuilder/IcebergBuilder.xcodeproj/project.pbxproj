@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4172A4E113587E9007C4346 /* PBProjectBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F4172A4D113587E9007C4346 /* PBProjectBuilder.m */; };
+		F45FCABC0A2D085A00E69585 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.m */; settings = {ATTRIBUTES = (); }; };
+		F45FCABD0A2D085A00E69585 /* NSString+Karelia.m in Sources */ = {isa = PBXBuildFile; fileRef = F45EA187058BA814008B71B2 /* NSString+Karelia.m */; };
+		F45FCABF0A2D085A00E69585 /* PBExtensionUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F45EA192058BA864008B71B2 /* PBExtensionUtilities.m */; };
+		F45FCAC00A2D085A00E69585 /* PBLicenseProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = F45EA198058BA8A7008B71B2 /* PBLicenseProvider.m */; };
+		F45FCAC10A2D085A00E69585 /* FTSUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = F48A30AF05ACD62D00D5DCF8 /* FTSUtilities.c */; };
+		F45FCAC20A2D085A00E69585 /* NSArray+Iceberg.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F5769005CB232C00D366B6 /* NSArray+Iceberg.m */; };
+		F45FCAC30A2D085A00E69585 /* FSCopyObject.c in Sources */ = {isa = PBXBuildFile; fileRef = F447A99506172E8900E30A1C /* FSCopyObject.c */; };
+		F45FCAC40A2D085A00E69585 /* GenLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = F447A99806172E8900E30A1C /* GenLinkedList.c */; };
+		F45FCAC50A2D085A00E69585 /* NSString+CarbonUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B4A7340632C33B006BEA43 /* NSString+CarbonUtilities.m */; };
+		F45FCAC60A2D085A00E69585 /* NDResourceFork.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B4A7350632C33B006BEA43 /* NDResourceFork.m */; };
+		F45FCAC70A2D085A00E69585 /* NSURL+NDCarbonUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B4A7380632C33B006BEA43 /* NSURL+NDCarbonUtilities.m */; };
+		F45FCAC80A2D085A00E69585 /* NSString+Iceberg.m in Sources */ = {isa = PBXBuildFile; fileRef = F473F54306FD912A006C6795 /* NSString+Iceberg.m */; };
+		F45FCAC90A2D085A00E69585 /* PBProjectRemoverErrorHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F47F6C9B0826CB9500B76CA6 /* PBProjectRemoverErrorHandler.m */; };
+		F45FCACB0A2D085A00E69585 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+		F45FCACC0A2D085A00E69585 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45BBEA20610DA4F00D1A75A /* CoreServices.framework */; };
+		F45FCACD0A2D085A00E69585 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B49A85083E66180081667B /* CoreFoundation.framework */; };
+		F45FCAD00A2D085A00E69585 /* IcebergBuilder.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* IcebergBuilder.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F45FCACF0A2D085A00E69585 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				F45FCAD00A2D085A00E69585 /* IcebergBuilder.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32A70AAB03705E1F00C91783 /* IcebergBuilder_Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IcebergBuilder_Prefix.h; sourceTree = "<group>"; };
+		C6859EA3029092ED04C91782 /* IcebergBuilder.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = IcebergBuilder.1; sourceTree = "<group>"; };
+		F4172A4D113587E9007C4346 /* PBProjectBuilder.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = PBProjectBuilder.m; path = ../Packaginator/PBProjectBuilder.m; sourceTree = SOURCE_ROOT; };
+		F447A99506172E8900E30A1C /* FSCopyObject.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = FSCopyObject.c; path = FSCopyObject/FSCopyObject.c; sourceTree = "<group>"; };
+		F447A99606172E8900E30A1C /* GenLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = GenLinkedList.h; path = FSCopyObject/GenLinkedList.h; sourceTree = "<group>"; };
+		F447A99706172E8900E30A1C /* FSCopyObject.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FSCopyObject.h; path = FSCopyObject/FSCopyObject.h; sourceTree = "<group>"; };
+		F447A99806172E8900E30A1C /* GenLinkedList.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = GenLinkedList.c; path = FSCopyObject/GenLinkedList.c; sourceTree = "<group>"; };
+		F45BBEA20610DA4F00D1A75A /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		F45EA186058BA814008B71B2 /* NSString+Karelia.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = "NSString+Karelia.h"; path = "../Packaginator/NSString+Karelia.h"; sourceTree = SOURCE_ROOT; };
+		F45EA187058BA814008B71B2 /* NSString+Karelia.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = "NSString+Karelia.m"; path = "../Packaginator/NSString+Karelia.m"; sourceTree = SOURCE_ROOT; };
+		F45EA18D058BA82B008B71B2 /* PBProjectBuilder.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PBProjectBuilder.h; path = ../Packaginator/PBProjectBuilder.h; sourceTree = SOURCE_ROOT; };
+		F45EA191058BA864008B71B2 /* PBExtensionUtilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PBExtensionUtilities.h; path = ../Packaginator/PBExtensionUtilities.h; sourceTree = SOURCE_ROOT; };
+		F45EA192058BA864008B71B2 /* PBExtensionUtilities.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = PBExtensionUtilities.m; path = ../Packaginator/PBExtensionUtilities.m; sourceTree = SOURCE_ROOT; };
+		F45EA195058BA878008B71B2 /* PBSharedConst.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PBSharedConst.h; path = ../Packaginator/PBSharedConst.h; sourceTree = SOURCE_ROOT; };
+		F45EA197058BA8A7008B71B2 /* PBLicenseProvider.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PBLicenseProvider.h; path = ../Packaginator/PBLicenseProvider.h; sourceTree = SOURCE_ROOT; };
+		F45EA198058BA8A7008B71B2 /* PBLicenseProvider.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = PBLicenseProvider.m; path = ../Packaginator/PBLicenseProvider.m; sourceTree = SOURCE_ROOT; };
+		F45FCAD50A2D085A00E69585 /* IcebergBuilder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IcebergBuilder; sourceTree = BUILT_PRODUCTS_DIR; };
+		F473F54206FD912A006C6795 /* NSString+Iceberg.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = "NSString+Iceberg.h"; path = "../Packaginator/NSString+Iceberg.h"; sourceTree = SOURCE_ROOT; };
+		F473F54306FD912A006C6795 /* NSString+Iceberg.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = "NSString+Iceberg.m"; path = "../Packaginator/NSString+Iceberg.m"; sourceTree = SOURCE_ROOT; };
+		F47F6C9A0826CB9500B76CA6 /* PBProjectRemoverErrorHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBProjectRemoverErrorHandler.h; sourceTree = SOURCE_ROOT; };
+		F47F6C9B0826CB9500B76CA6 /* PBProjectRemoverErrorHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBProjectRemoverErrorHandler.m; sourceTree = SOURCE_ROOT; };
+		F48A30AD05ACD5F900D5DCF8 /* FTSUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTSUtilities.h; sourceTree = "<group>"; };
+		F48A30AF05ACD62D00D5DCF8 /* FTSUtilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FTSUtilities.c; sourceTree = "<group>"; };
+		F4B49A85083E66180081667B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		F4B4A7330632C33B006BEA43 /* NSString+CarbonUtilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = "NSString+CarbonUtilities.h"; path = "NDResourceFork/NSString+CarbonUtilities.h"; sourceTree = "<group>"; };
+		F4B4A7340632C33B006BEA43 /* NSString+CarbonUtilities.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = "NSString+CarbonUtilities.m"; path = "NDResourceFork/NSString+CarbonUtilities.m"; sourceTree = "<group>"; };
+		F4B4A7350632C33B006BEA43 /* NDResourceFork.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = NDResourceFork.m; path = NDResourceFork/NDResourceFork.m; sourceTree = "<group>"; };
+		F4B4A7360632C33B006BEA43 /* NDResourceFork.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = NDResourceFork.h; path = NDResourceFork/NDResourceFork.h; sourceTree = "<group>"; };
+		F4B4A7370632C33B006BEA43 /* NSURL+NDCarbonUtilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = "NSURL+NDCarbonUtilities.h"; path = "NDResourceFork/NSURL+NDCarbonUtilities.h"; sourceTree = "<group>"; };
+		F4B4A7380632C33B006BEA43 /* NSURL+NDCarbonUtilities.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = "NSURL+NDCarbonUtilities.m"; path = "NDResourceFork/NSURL+NDCarbonUtilities.m"; sourceTree = "<group>"; };
+		F4F5768F05CB232C00D366B6 /* NSArray+Iceberg.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = "NSArray+Iceberg.h"; path = "../Packaginator/NSArray+Iceberg.h"; sourceTree = SOURCE_ROOT; };
+		F4F5769005CB232C00D366B6 /* NSArray+Iceberg.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Iceberg.m"; path = "../Packaginator/NSArray+Iceberg.m"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F45FCACA0A2D085A00E69585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45FCACB0A2D085A00E69585 /* Foundation.framework in Frameworks */,
+				F45FCACC0A2D085A00E69585 /* CoreServices.framework in Frameworks */,
+				F45FCACD0A2D085A00E69585 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* IcebergBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				32A70AAB03705E1F00C91783 /* IcebergBuilder_Prefix.h */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859EA2029092E104C91782 /* Documentation */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = IcebergBuilder;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F4B4A7320632C311006BEA43 /* NDResourceFork */,
+				F45BBE980610D61C00D1A75A /* FSCopyObject */,
+				F47F6C9A0826CB9500B76CA6 /* PBProjectRemoverErrorHandler.h */,
+				F47F6C9B0826CB9500B76CA6 /* PBProjectRemoverErrorHandler.m */,
+				F48A30AD05ACD5F900D5DCF8 /* FTSUtilities.h */,
+				F48A30AF05ACD62D00D5DCF8 /* FTSUtilities.c */,
+				F45EA195058BA878008B71B2 /* PBSharedConst.h */,
+				F45EA197058BA8A7008B71B2 /* PBLicenseProvider.h */,
+				F45EA198058BA8A7008B71B2 /* PBLicenseProvider.m */,
+				F45EA191058BA864008B71B2 /* PBExtensionUtilities.h */,
+				F45EA192058BA864008B71B2 /* PBExtensionUtilities.m */,
+				F473F54206FD912A006C6795 /* NSString+Iceberg.h */,
+				F473F54306FD912A006C6795 /* NSString+Iceberg.m */,
+				F45EA186058BA814008B71B2 /* NSString+Karelia.h */,
+				F45EA187058BA814008B71B2 /* NSString+Karelia.m */,
+				F4F5768F05CB232C00D366B6 /* NSArray+Iceberg.h */,
+				F4F5769005CB232C00D366B6 /* NSArray+Iceberg.m */,
+				F45EA18D058BA82B008B71B2 /* PBProjectBuilder.h */,
+				F4172A4D113587E9007C4346 /* PBProjectBuilder.m */,
+				08FB7796FE84155DC02AAC07 /* main.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F4B49A85083E66180081667B /* CoreFoundation.framework */,
+				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
+				F45BBEA20610DA4F00D1A75A /* CoreServices.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F45FCAD50A2D085A00E69585 /* IcebergBuilder */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859EA2029092E104C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859EA3029092ED04C91782 /* IcebergBuilder.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		F45BBE980610D61C00D1A75A /* FSCopyObject */ = {
+			isa = PBXGroup;
+			children = (
+				F447A99606172E8900E30A1C /* GenLinkedList.h */,
+				F447A99806172E8900E30A1C /* GenLinkedList.c */,
+				F447A99706172E8900E30A1C /* FSCopyObject.h */,
+				F447A99506172E8900E30A1C /* FSCopyObject.c */,
+			);
+			name = FSCopyObject;
+			sourceTree = "<group>";
+		};
+		F4B4A7320632C311006BEA43 /* NDResourceFork */ = {
+			isa = PBXGroup;
+			children = (
+				F4B4A7330632C33B006BEA43 /* NSString+CarbonUtilities.h */,
+				F4B4A7340632C33B006BEA43 /* NSString+CarbonUtilities.m */,
+				F4B4A7370632C33B006BEA43 /* NSURL+NDCarbonUtilities.h */,
+				F4B4A7380632C33B006BEA43 /* NSURL+NDCarbonUtilities.m */,
+				F4B4A7360632C33B006BEA43 /* NDResourceFork.h */,
+				F4B4A7350632C33B006BEA43 /* NDResourceFork.m */,
+			);
+			name = NDResourceFork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F45FCAB40A2D085A00E69585 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F45FCAB30A2D085A00E69585 /* IcebergBuilder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45FCAD10A2D085A00E69585 /* Build configuration list for PBXNativeTarget "IcebergBuilder" */;
+			buildPhases = (
+				F45FCAB40A2D085A00E69585 /* Headers */,
+				F45FCABB0A2D085A00E69585 /* Sources */,
+				F45FCACA0A2D085A00E69585 /* Frameworks */,
+				F45FCACE0A2D085A00E69585 /* Rez */,
+				F45FCACF0A2D085A00E69585 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IcebergBuilder;
+			productInstallPath = "$(HOME)/bin";
+			productName = IcebergBuilder;
+			productReference = F45FCAD50A2D085A00E69585 /* IcebergBuilder */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F45FCA9A0A2D078800E69585 /* Build configuration list for PBXProject "IcebergBuilder" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* IcebergBuilder */;
+			projectDirPath = "";
+			targets = (
+				F45FCAB30A2D085A00E69585 /* IcebergBuilder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXRezBuildPhase section */
+		F45FCACE0A2D085A00E69585 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F45FCABB0A2D085A00E69585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45FCABC0A2D085A00E69585 /* main.m in Sources */,
+				F45FCABD0A2D085A00E69585 /* NSString+Karelia.m in Sources */,
+				F45FCABF0A2D085A00E69585 /* PBExtensionUtilities.m in Sources */,
+				F45FCAC00A2D085A00E69585 /* PBLicenseProvider.m in Sources */,
+				F45FCAC10A2D085A00E69585 /* FTSUtilities.c in Sources */,
+				F45FCAC20A2D085A00E69585 /* NSArray+Iceberg.m in Sources */,
+				F45FCAC30A2D085A00E69585 /* FSCopyObject.c in Sources */,
+				F45FCAC40A2D085A00E69585 /* GenLinkedList.c in Sources */,
+				F45FCAC50A2D085A00E69585 /* NSString+CarbonUtilities.m in Sources */,
+				F45FCAC60A2D085A00E69585 /* NDResourceFork.m in Sources */,
+				F45FCAC70A2D085A00E69585 /* NSURL+NDCarbonUtilities.m in Sources */,
+				F45FCAC80A2D085A00E69585 /* NSString+Iceberg.m in Sources */,
+				F45FCAC90A2D085A00E69585 /* PBProjectRemoverErrorHandler.m in Sources */,
+				F4172A4E113587E9007C4346 /* PBProjectBuilder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F45FCA9B0A2D078800E69585 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_VERSION_ppc = 3.3;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.2;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.2.8.sdk;
+			};
+			name = Development;
+		};
+		F45FCA9C0A2D078800E69585 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_VERSION_ppc = 3.3;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.2;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.2.8.sdk;
+			};
+			name = Deployment;
+		};
+		F45FCA9D0A2D078800E69585 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_VERSION_ppc = 3.3;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.2;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.2.8.sdk;
+			};
+			name = Default;
+		};
+		F45FCAD20A2D085A00E69585 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IcebergBuilder_Prefix.h;
+				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = IcebergBuilder;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		F45FCAD30A2D085A00E69585 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IcebergBuilder_Prefix.h;
+				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = IcebergBuilder;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		F45FCAD40A2D085A00E69585 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IcebergBuilder_Prefix.h;
+				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = IcebergBuilder;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F45FCA9A0A2D078800E69585 /* Build configuration list for PBXProject "IcebergBuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45FCA9B0A2D078800E69585 /* Development */,
+				F45FCA9C0A2D078800E69585 /* Deployment */,
+				F45FCA9D0A2D078800E69585 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F45FCAD10A2D085A00E69585 /* Build configuration list for PBXNativeTarget "IcebergBuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45FCAD20A2D085A00E69585 /* Development */,
+				F45FCAD30A2D085A00E69585 /* Deployment */,
+				F45FCAD40A2D085A00E69585 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

@@ -1,0 +1,37 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {CLASS = PBActionPopUpButton; LANGUAGE = ObjC; SUPERCLASS = NSPopUpButton; }, 
+        {
+            CLASS = PBController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBview_" = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = PBFileTextField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {
+            ACTIONS = {revealProjectBuildInFinder = id; selectBuildPath = id; updateProject = id; }; 
+            CLASS = PBProjectController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBproject101_" = id; 
+                "IBprojectBuildPath_" = id; 
+                "IBprojectComment_" = id; 
+                "IBprojectPath_" = id; 
+                "IBprojectRemoveCVS_" = id; 
+                "IBprojectRemoveDSStore_" = id; 
+                "IBprojectRemovePBDevelopment_" = id; 
+            }; 
+            SUPERCLASS = PBController; 
+        }, 
+        {
+            ACTIONS = {takeReferenceStyle = id; }; 
+            CLASS = PBReferencedFileTextField; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = PBFileTextField; 
+        }, 
+        {CLASS = PBTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,76 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                addFiles = id; 
+                build = id; 
+                buildAndRun = id; 
+                clean = id; 
+                contract = id; 
+                expand = id; 
+                expandOneLevel = id; 
+                group = id; 
+                importPackages = id; 
+                myAction = id; 
+                newComponent = id; 
+                newFolder = id; 
+                preview = id; 
+                rename = id; 
+                selectDefaultLocationPath = id; 
+                showDocumentsPane = id; 
+                showFilesComponentsPane = id; 
+                showHideHierarchy = id; 
+                showProjectPane = id; 
+                showScriptsPane = id; 
+                showSettingsPane = id; 
+                sortByAttribute = id; 
+                sortByName = id; 
+                ungroup = id; 
+            }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {
+            ACTIONS = {
+                cancel = id; 
+                finishSetUp = id; 
+                next = id; 
+                previous = id; 
+                selectDirectory = id; 
+            }; 
+            CLASS = PBProjectAssistantController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBassistantProjectType_" = id; 
+                "IBnextButton_" = id; 
+                "IBpreviousButton_" = id; 
+                "IBwindow_" = id; 
+                "startPaneController_" = id; 
+                "stopPaneController_" = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = PBProjectAssistantPaneController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"mainController_" = id; "relativeRootView_" = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = PBProjectAssistantStartPaneController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBtemplateDescription_" = id; "IBtemplateOutlineView_" = id; }; 
+            SUPERCLASS = PBProjectAssistantPaneController; 
+        }, 
+        {
+            ACTIONS = {selectDirectory = id; }; 
+            CLASS = PBProjectAssistantStopPaneController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBprojectDirectory_" = id; "IBprojectName_" = id; }; 
+            SUPERCLASS = PBProjectAssistantPaneController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

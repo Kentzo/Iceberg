@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Balík (Bundle)</key>
+	<dict>
+		<key>Icon</key>
+		<string>bundle16</string>
+		<key>Tag</key>
+		<integer>0</integer>
+	</dict>
+	<key>Balík (Package)</key>
+	<dict>
+		<key>Icon</key>
+		<string>package16</string>
+		<key>Tag</key>
+		<integer>4</integer>
+	</dict>
+	<key>Seznam vlastností</key>
+	<dict>
+		<key>Icon</key>
+		<string>plist16</string>
+		<key>Tag</key>
+		<integer>5</integer>
+	</dict>
+	<key>Soubor</key>
+	<dict>
+		<key>Icon</key>
+		<string>file16</string>
+		<key>Tag</key>
+		<integer>1</integer>
+	</dict>
+	<key>sysctl</key>
+	<dict>
+		<key>Icon</key>
+		<string>sysctl16</string>
+		<key>Tag</key>
+		<integer>6</integer>
+	</dict>
+</dict>
+</plist>

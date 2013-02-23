@@ -1,0 +1,20 @@
+#
+# Human-readable string for this group of packages
+#
+Title	testMetapack
+
+#
+# Version
+#
+Version	1.0
+
+#
+# MetaPackage Description
+#
+Description	
+
+#
+# Where to search for packages. For a real release, this would
+# be relative to the .mpkg directory (probably "..")
+#
+PackageLocation	..

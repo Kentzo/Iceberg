@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSFileCreationDate</key>
+        <string>NSDate</string>
+        <key>NSFileSize</key>
+        <string>NSNumber</string>
+        <key>NSFileModificationDate</key>
+        <string>NSDate</string>
+        <key>NSFileHFSCreatorCode</key>
+        <string>NSNumber</string>
+        <key>NSFileHFSTypeCode</key>
+        <string>NSNumber</string>
+        <key>NSFileType</key>
+        <string>NSString</string>
+        <key>NSFilePosixPermissions</key>
+        <string>NSNumber</string>
+        <key>NSFileOwnerAccountID</key>
+        <string>NSNumber</string>
+        <key>NSFileOwnerAccountName</key>
+        <string>NSString</string>
+        <key>NSFileGroupOwnerAccountID</key>
+        <string>NSNumber</string>
+        <key>NSFileGroupOwnerAccountName</key>
+        <string>NSString</string>
+</dict>
+</plist>

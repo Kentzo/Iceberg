@@ -1,0 +1,37 @@
+{
+    IBClasses = (
+        {CLASS = AKBox; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = AKListView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = PBImageView; LANGUAGE = ObjC; SUPERCLASS = NSImageView; }, 
+        {
+            ACTIONS = {
+                endSimulator = id; 
+                nextSlide = id; 
+                previousSlide = id; 
+                setImageAlignment = id; 
+                setImageScaling = id; 
+                switchLanguage = id; 
+            }; 
+            CLASS = PBSimulatorController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBbox_" = id; 
+                "IBcloseButton_" = id; 
+                "IBlist_" = id; 
+                "IBlogo_" = NSImageView; 
+                "IBnextSlide_" = id; 
+                "IBpaneTitle_" = id; 
+                "IBpopupLanguage_" = id; 
+                "IBpreviousSlide_" = id; 
+                "IBprintButton_" = id; 
+                "IBsaveButton_" = id; 
+                "IBwindow_" = id; 
+                "currentRelativeRootView_" = id; 
+                "document_" = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

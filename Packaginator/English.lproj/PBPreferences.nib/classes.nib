@@ -1,0 +1,34 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = PBActionPopUpButton; LANGUAGE = ObjC; SUPERCLASS = NSPopUpButton; }, 
+        {CLASS = PBFileTextField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {
+            ACTIONS = {
+                revealScratchInFinder = id; 
+                selectScratchPath = id; 
+                showPreferencesDialog = id; 
+                updatePreferences = id; 
+            }; 
+            CLASS = PBPreferencesController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBcopyPackage_" = id; 
+                "IBdefaultReferenceStyle_" = id; 
+                "IBimportMetapackageComponents_" = id; 
+                "IBkeywordsArray_" = id; 
+                "IBsaveBuild_" = id; 
+                "IBscratchPath_" = id; 
+                "IBwindow_" = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {delete = id; }; 
+            CLASS = PBTableView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTableView; 
+        }
+    ); 
+    IBVersion = 1; 
+}

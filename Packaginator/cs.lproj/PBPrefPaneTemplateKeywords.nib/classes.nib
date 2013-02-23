@@ -1,0 +1,25 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {changeDefaults = id; }; 
+            CLASS = PBPreferencePaneController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBview_" = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = PBPreferencePaneTemplateKeywordsController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBkeywordsArray_" = id; }; 
+            SUPERCLASS = PBPreferencePaneController; 
+        }, 
+        {
+            ACTIONS = {delete = id; }; 
+            CLASS = PBTableView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTableView; 
+        }
+    ); 
+    IBVersion = 1; 
+}

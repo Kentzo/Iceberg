@@ -1,0 +1,48 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MOViewListView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {
+                build = id; 
+                changeName = id; 
+                delete = id; 
+                group = id; 
+                importPackages = id; 
+                newComponent = id; 
+                rename = id; 
+                save = id; 
+                sortByAttribute = id; 
+                sortByName = id; 
+                switchAttribute = id; 
+                ungroup = id; 
+            }; 
+            CLASS = PBDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBdocumentProgressIndicator_" = id; 
+                "IBdocumentStatus_" = id; 
+                "IBicon_" = id; 
+                "IBname_" = id; 
+                "IBoutlineView_" = id; 
+                "IBpopupButton_" = id; 
+                "IBrightView_" = id; 
+                "IBtype_" = id; 
+                "IBviewListView_" = MOViewListView; 
+            }; 
+            SUPERCLASS = NSDocument; 
+        }, 
+        {
+            ACTIONS = {delete = id; }; 
+            CLASS = PBOutlineView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSOutlineView; 
+        }, 
+        {
+            CLASS = PBProgressIndicator; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSProgressIndicator; 
+        }
+    ); 
+    IBVersion = 1; 
+}

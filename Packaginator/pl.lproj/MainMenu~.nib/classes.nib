@@ -1,0 +1,120 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                addFiles = id; 
+                build = id; 
+                buildAndRun = id; 
+                clean = id; 
+                contract = id; 
+                expand = id; 
+                expandOneLevel = id; 
+                group = id; 
+                importPackages = id; 
+                myAction = id; 
+                newComponent = id; 
+                newFolder = id; 
+                preview = id; 
+                rename = id; 
+                selectDefaultLocationPath = id; 
+                showDocumentsPane = id; 
+                showFilesComponentsPane = id; 
+                showHideBuildWindow = id; 
+                showHideHierarchy = id; 
+                showPluginsPane = id; 
+                showProjectPane = id; 
+                showScriptsPane = id; 
+                showSettingsPane = id; 
+                sortByAttribute = id; 
+                sortByName = id; 
+                ungroup = id; 
+            }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = MOViewListView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {delegate = id; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {CLASS = PBActionPopUpButton; LANGUAGE = ObjC; SUPERCLASS = NSPopUpButton; }, 
+        {
+            ACTIONS = {
+                importCancel = id; 
+                importFinish = id; 
+                importProject = id; 
+                newProject = id; 
+                selectNewLocation = id; 
+                selectOldProject = id; 
+                showAboutBox = id; 
+                showIcebergWebSite = id; 
+                showPackageFormatDocumentation = id; 
+                showPreferences = id; 
+                showUserGuide = id; 
+            }; 
+            CLASS = PBApplicationController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBfileInspector_" = id; 
+                "IBimportAssistantWindow_" = id; 
+                "IBimportFinishButton_" = id; 
+                "IBimportNewLocation_" = id; 
+                "IBimportNewName_" = id; 
+                "IBimportOldLocation_" = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = PBCenteredLabelView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = PBContextualTextField; LANGUAGE = ObjC; SUPERCLASS = NSPopUpButton; }, 
+        {
+            ACTIONS = {
+                addRule = id; 
+                editRule = id; 
+                removeRule = id; 
+                revealSourceInFinder = id; 
+                setFolderName = id; 
+                showHideInspector = id; 
+                switchGroup = id; 
+                switchOwner = id; 
+                switchPathType = id; 
+                switchPermissions = id; 
+            }; 
+            CLASS = PBFileInspectorController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBaddRuleButton_" = id; 
+                "IBcenteredView_" = id; 
+                "IBdestination_" = id; 
+                "IBeditRuleButton_" = id; 
+                "IBfileInfoView_" = id; 
+                "IBgeneralInfoView_" = id; 
+                "IBgroup_" = id; 
+                "IBname_" = id; 
+                "IBowner_" = id; 
+                "IBpathType_" = id; 
+                "IBpermissionsArray_" = id; 
+                "IBpermissions_" = id; 
+                "IBremoveRuleButton_" = id; 
+                "IBrulesArray_" = id; 
+                "IBsearchRulesInfoView_" = id; 
+                "IBsource_" = id; 
+                "IBspecialBitsArray_" = id; 
+                "IBtype_" = id; 
+                "IBviewListView_" = id; 
+                "IBwindow_" = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = PBFileTextField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {
+            ACTIONS = {delete = id; }; 
+            CLASS = PBTableView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTableView; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IFPkgFlagAllowBackRev</key>
+	<string>Instalator umożliwi zainstalowanie pakietu nawet jeśli nowsza wersja jest już zainstalowana.</string>
+	<key>IFPkgFlagFollowLinks</key>
+	<string>Instalator nie zamienia linków symbolicznych ale rozwiązuje je i kontynuje instalację właśnie z nich.</string>
+	<key>IFPkgFlagInstallFat</key>
+	<string>Instalator instaluje binarki ( pliki wykonywalne ) dla wszystkich platform</string>
+	<key>IFPkgFlagIsRequired</key>
+	<string>Pakiet jest wymaganym komponentem instalacji</string>
+	<key>IFPkgFlagOverwritePermissions</key>
+	<string>Instalacja nadpisuje uprawnienia teczek instalacji jeśli takowe istnieją już na dysku docelowym.</string>
+	<key>IFPkgFlagRelocatable</key>
+	<string>Użytkownik może wybrać miejsce instalacji.</string>
+	<key>IFPkgFlagRootVolumeOnly</key>
+	<string>Instalacja jest ograniczona do dysku startowego</string>
+	<key>IFPkgFlagUpdateInstalledLanguages</key>
+	<string>Instalacja tylko odświeża już zainstalowane lokalizacje</string>
+</dict>
+</plist>

@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 38;
+	objects = {
+		014CEA410018CDE011CA2923 = {
+			isa = PBXBundleReference;
+			path = Plugin.bundle;
+			refType = 3;
+		};
+		014CEA420018CDE011CA2923 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				OPTIMIZATION_CFLAGS = "-O0";
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		014CEA430018CDE011CA2923 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//010
+//011
+//012
+//013
+//014
+//080
+//081
+//082
+//083
+//084
+		089C1669FE841209C02AAC07 = {
+			buildStyles = (
+				014CEA420018CDE011CA2923,
+				014CEA430018CDE011CA2923,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 089C166AFE841209C02AAC07;
+			projectDirPath = "";
+			targets = (
+				089C1673FE841209C02AAC07,
+			);
+		};
+		089C166AFE841209C02AAC07 = {
+			children = (
+				08FB77AFFE84173DC02AAC07,
+				32C88E010371C26100C91783,
+				089C167CFE841241C02AAC07,
+				089C1671FE841209C02AAC07,
+				19C28FB8FE9D52D311CA2CBB,
+			);
+			isa = PBXGroup;
+			name = MDImporterProjectTemplate;
+			refType = 4;
+		};
+		089C1671FE841209C02AAC07 = {
+			children = (
+				1058C7ACFEA557BF11CA2CBB,
+				1058C7AEFEA557BF11CA2CBB,
+			);
+			isa = PBXGroup;
+			name = "Frameworks and Libraries";
+			refType = 4;
+		};
+		089C1672FE841209C02AAC07 = {
+			isa = PBXFrameworkReference;
+			name = Foundation.framework;
+			path = /System/Library/Frameworks/Foundation.framework;
+			refType = 0;
+		};
+		089C1673FE841209C02AAC07 = {
+			buildPhases = (
+				089C1674FE841209C02AAC07,
+				089C1675FE841209C02AAC07,
+				089C1676FE841209C02AAC07,
+				089C1677FE841209C02AAC07,
+				089C1679FE841209C02AAC07,
+			);
+			buildSettings = {
+				DEBUGGING_SYMBOLS = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = "";
+				OPTIMIZATION_CFLAGS = "-O3";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-bundle_loader /Users/stephane/Projets/Packaginator/build/Iceberg.app/Contents/MacOS/Iceberg";
+				OTHER_REZFLAGS = "";
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = PPProjectTemplate_Prefix.h;
+				PRODUCT_NAME = Plugin;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = bundle;
+			};
+			dependencies = (
+			);
+			isa = PBXBundleTarget;
+			name = PrefPaneProjectTemplate;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = MDImporterProjectTemplate;
+			productReference = 014CEA410018CDE011CA2923;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Plugin</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>fr.whitebox.project.template.quickpick</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>NSPrincipalClass</key>
+	<string></string>
+</dict>
+</plist>
+";
+		};
+		089C1674FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				32DBCF640370AF2F00C91783,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C1675FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				F4F1EAC3085F550F00EF4C0C,
+				F4F1EACC085F566500EF4C0C,
+				F44B36E8085FEC8A009D31FC,
+				F4A61C96088AB6FF00A49FFD,
+				F4A61C97088AB6FF00A49FFD,
+				F4A61C98088AB6FF00A49FFD,
+				F4A61C99088AB6FF00A49FFD,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C1676FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				F480C6F408E49F330002344C,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C1677FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				1058C7AFFEA557BF11CA2CBB,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C1679FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C167CFE841241C02AAC07 = {
+			children = (
+				F4A61C92088AB6FF00A49FFD,
+				F4A61C93088AB6FF00A49FFD,
+				F4A61C94088AB6FF00A49FFD,
+				F4A61C95088AB6FF00A49FFD,
+				F44B36E6085FEC8A009D31FC,
+				F4F1EACB085F566500EF4C0C,
+				F4F1EAC1085F550F00EF4C0C,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			refType = 4;
+		};
+		089C167FFE841241C02AAC07 = {
+			isa = PBXFrameworkReference;
+			name = AppKit.framework;
+			path = /System/Library/Frameworks/AppKit.framework;
+			refType = 0;
+		};
+		08FB77AFFE84173DC02AAC07 = {
+			children = (
+				F4AE83C7086EA71000952C2C,
+				F4AE83AD086E9E5E00952C2C,
+				F44B36E4085FE874009D31FC,
+				F4F1EACA085F557900EF4C0C,
+				F480C6F308E49F330002344C,
+				F480C6F208E49F330002344C,
+			);
+			isa = PBXGroup;
+			name = Classes;
+			refType = 4;
+		};
+//080
+//081
+//082
+//083
+//084
+//100
+//101
+//102
+//103
+//104
+		1058C7ACFEA557BF11CA2CBB = {
+			children = (
+				1058C7ADFEA557BF11CA2CBB,
+			);
+			isa = PBXGroup;
+			name = "Linked Frameworks";
+			refType = 4;
+		};
+		1058C7ADFEA557BF11CA2CBB = {
+			isa = PBXFrameworkReference;
+			name = Cocoa.framework;
+			path = /System/Library/Frameworks/Cocoa.framework;
+			refType = 0;
+		};
+		1058C7AEFEA557BF11CA2CBB = {
+			children = (
+				089C1672FE841209C02AAC07,
+				089C167FFE841241C02AAC07,
+			);
+			isa = PBXGroup;
+			name = "Other Frameworks";
+			refType = 4;
+		};
+		1058C7AFFEA557BF11CA2CBB = {
+			fileRef = 1058C7ADFEA557BF11CA2CBB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//100
+//101
+//102
+//103
+//104
+//190
+//191
+//192
+//193
+//194
+		19C28FB8FE9D52D311CA2CBB = {
+			children = (
+				014CEA410018CDE011CA2923,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+		};
+//190
+//191
+//192
+//193
+//194
+//320
+//321
+//322
+//323
+//324
+		32C88E010371C26100C91783 = {
+			children = (
+				32DBCF630370AF2F00C91783,
+			);
+			isa = PBXGroup;
+			name = "Other Sources";
+			refType = 4;
+		};
+		32DBCF630370AF2F00C91783 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = PPProjectTemplate_Prefix.h;
+			refType = 4;
+		};
+		32DBCF640370AF2F00C91783 = {
+			fileRef = 32DBCF630370AF2F00C91783;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//320
+//321
+//322
+//323
+//324
+//F40
+//F41
+//F42
+//F43
+//F44
+		F44B36E4085FE874009D31FC = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = ImageAndTextCell.h;
+			path = /Developer/Examples/AppKit/DragNDropOutlineView/ImageAndTextCell.h;
+			refType = 0;
+		};
+		F44B36E6085FEC8A009D31FC = {
+			children = (
+				F44B36E7085FEC8A009D31FC,
+				F44B3DFD08600BC6009D31FC,
+			);
+			isa = PBXVariantGroup;
+			name = Localizable.strings;
+			path = "";
+			refType = 2;
+		};
+		F44B36E7085FEC8A009D31FC = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/Localizable.strings;
+			refType = 4;
+		};
+		F44B36E8085FEC8A009D31FC = {
+			fileRef = F44B36E6085FEC8A009D31FC;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F44B3DFD08600BC6009D31FC = {
+			isa = PBXFileReference;
+			name = French;
+			path = French.lproj/Localizable.strings;
+			refType = 4;
+		};
+		F44B3E0308600F63009D31FC = {
+			isa = PBXFileReference;
+			name = French;
+			path = French.lproj/MainPane.nib;
+			refType = 4;
+		};
+		F480C6F208E49F330002344C = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = QPPaneController.m;
+			refType = 2;
+		};
+		F480C6F308E49F330002344C = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = QPPaneController.h;
+			refType = 2;
+		};
+		F480C6F408E49F330002344C = {
+			fileRef = F480C6F208E49F330002344C;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F4A61C92088AB6FF00A49FFD = {
+			isa = PBXFileReference;
+			name = Add.tif;
+			path = ../../Images/Add.tif;
+			refType = 2;
+		};
+		F4A61C93088AB6FF00A49FFD = {
+			isa = PBXFileReference;
+			name = DeletePushed.tif;
+			path = ../../Images/DeletePushed.tif;
+			refType = 2;
+		};
+		F4A61C94088AB6FF00A49FFD = {
+			isa = PBXFileReference;
+			name = AddPushed.tif;
+			path = ../../Images/AddPushed.tif;
+			refType = 2;
+		};
+		F4A61C95088AB6FF00A49FFD = {
+			isa = PBXFileReference;
+			name = Delete.tif;
+			path = ../../Images/Delete.tif;
+			refType = 2;
+		};
+		F4A61C96088AB6FF00A49FFD = {
+			fileRef = F4A61C92088AB6FF00A49FFD;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F4A61C97088AB6FF00A49FFD = {
+			fileRef = F4A61C93088AB6FF00A49FFD;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F4A61C98088AB6FF00A49FFD = {
+			fileRef = F4A61C94088AB6FF00A49FFD;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F4A61C99088AB6FF00A49FFD = {
+			fileRef = F4A61C95088AB6FF00A49FFD;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F4AE83AD086E9E5E00952C2C = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = PBTableView.h;
+			path = ../../PBTableView.h;
+			refType = 2;
+		};
+		F4AE83AF086E9E9500952C2C = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = PBProjectDictionaryManager.h;
+			path = ../../PBProjectDictionaryManager.h;
+			refType = 2;
+		};
+		F4AE83B1086E9EBD00952C2C = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = PBProjectAssistantEngine.h;
+			path = "../../Project Creation Assistant/PBProjectAssistantEngine.h";
+			refType = 2;
+		};
+		F4AE83B2086E9EBD00952C2C = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = PBProjectAssistantPaneController.h;
+			path = "../../Project Creation Assistant/PBProjectAssistantPaneController.h";
+			refType = 2;
+		};
+		F4AE83C7086EA71000952C2C = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = PBSharedConst.h;
+			path = ../../PBSharedConst.h;
+			refType = 2;
+		};
+		F4F1EAC1085F550F00EF4C0C = {
+			children = (
+				F4F1EAC2085F550F00EF4C0C,
+				F44B3E0308600F63009D31FC,
+			);
+			isa = PBXVariantGroup;
+			name = MainPane.nib;
+			path = "";
+			refType = 4;
+		};
+		F4F1EAC2085F550F00EF4C0C = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/MainPane.nib;
+			refType = 4;
+		};
+		F4F1EAC3085F550F00EF4C0C = {
+			fileRef = F4F1EAC1085F550F00EF4C0C;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F4F1EACA085F557900EF4C0C = {
+			children = (
+				F4AE83AF086E9E9500952C2C,
+				F4AE83B1086E9EBD00952C2C,
+				F4AE83B2086E9EBD00952C2C,
+			);
+			isa = PBXGroup;
+			name = Kit;
+			refType = 4;
+		};
+		F4F1EACB085F566500EF4C0C = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = PaneList.plist;
+			refType = 2;
+		};
+		F4F1EACC085F566500EF4C0C = {
+			fileRef = F4F1EACB085F566500EF4C0C;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 089C1669FE841209C02AAC07;
+}

@@ -1,0 +1,53 @@
+/*
+    Portions Copyright (c) 1999-2005 Apple Computer, Inc. All Rights Reserved.
+
+    This file contains Original Code and/or Modifications of Original Code
+    as defined in and that are subject to the Apple Public Source License
+    Version 2.0 (the 'License'). You may not use this file except in
+    compliance with the License. Please obtain a copy of the License at
+    http://www.opensource.apple.com/apsl/ and read it before using this
+    file.
+
+    The Original Code and all software distributed under the License are
+    distributed on an 'AS IS' basis, WITHOUT WARRANTY OF ANY KIND, EITHER
+    EXPRESS OR IMPLIED, AND APPLE HEREBY DISCLAIMS ALL SUCH WARRANTIES,
+    INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT OR NON-INFRINGEMENT.
+    Please see the License for the specific language governing rights and
+    limitations under the License.
+*/
+
+// copied from CFBundle_Resources.c in CoreFoundation.
+
+EnglishNames = (
+	"English", "French", "German", "Italian", "Dutch", "Swedish", "Spanish", "Danish", "Portuguese", "Norwegian", "Hebrew", "Japanese", "Arabic", "Finnish", "Greek", "Icelandic",
+	"Maltese", "Turkish", "Croatian", "Chinese", "Urdu", "Hindi", "Thai", "Korean", "Lithuanian", "Polish", "Hungarian", "Estonian", "Latvian", "Sami", "Faroese", "Farsi",
+	"Russian", "Chinese", "Dutch", "Irish", "Albanian", "Romanian", "Czech", "Slovak", "Slovenian", "Yiddish", "Serbian", "Macedonian", "Bulgarian", "Ukrainian", "Byelorussian", "Uzbek",
+	"Kazakh", "Azerbaijani", "Azerbaijani", "Armenian", "Georgian", "Moldavian", "Kirghiz", "Tajiki", "Turkmen", "Mongolian", "Mongolian", "Pashto", "Kurdish", "Kashmiri", "Sindhi", "Tibetan",
+	"Nepali", "Sanskrit", "Marathi", "Bengali", "Assamese", "Gujarati", "Punjabi", "Oriya", "Malayalam", "Kannada", "Tamil", "Telugu", "Sinhalese", "Burmese", "Khmer", "Lao",
+	"Vietnamese", "Indonesian", "Tagalog", "Malay", "Malay", "Amharic", "Tigrinya", "Oromo", "Somali", "Swahili", "Kinyarwanda", "Rundi",
+// Nyanja (nya) is not in ISO-639 but in ISO 639-2.
+//	"Nyanja",
+	"Malagasy", "Esperanto",
+//	"",
+// 	"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",
+//	"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",
+	"Welsh", "Basque", "Catalan", "Latin", "Quechua", "Guarani", "Aymara", "Tatar", "Uighur", "Dzongkha", "Javanese", "Sundanese", "Galician", "Afrikaans", "Breton", "Inuktitut",
+	"Scottish", "Manx", "Irish", "Tongan", "Greek", "Greenlandic", "Azerbaijani"
+);
+
+ISOLanguageNames = (
+	"en", "fr", "de", "it", "nl", "sv", "es", "da", "pt", "no", "he", "ja", "ar", "fi", "el", "is",
+	"mt", "tr", "hr", "zh", "ur", "hi", "th", "ko", "lt", "pl", "hu", "et", "lv", "se", "fo", "fa",
+	"ru", "zh", "nl", "ga", "sq", "ro", "cs", "sk", "sl", "yi", "sr", "mk", "bg", "uk", "be", "uz",
+	"kk", "az", "az", "hy", "ka", "mo", "ky", "tg", "tk", "mn", "mn", "ps", "ku", "ks", "sd", "bo",
+	"ne", "sa", "mr", "bn", "as", "gu", "pa", "or", "ml", "kn", "ta", "te", "si", "my", "km", "lo",
+	"vi", "id", "tl", "ms", "ms", "am", "ti", "om", "so", "sw", "rw", "rn",
+//	"",
+	"mg", "eo",
+//	"",
+//	"",   "",   "",   "",   "",   "",   "",   "",   "",   "",   "",   "",   "",   "",   "",   "",
+//	"",   "",   "",   "",   "",   "",   "",   "",   "",   "",   "",   "",   "",   "",   "",   "",
+	"cy", "eu", "ca", "la", "qu", "gn", "ay", "tt", "ug", "dz", "jv", "su", "gl", "af", "br", "iu",
+	"gd", "gv", "ga", "to", "el", "kl", "az"
+);

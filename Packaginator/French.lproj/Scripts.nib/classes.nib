@@ -1,0 +1,50 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {
+            CLASS = PBController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBview_" = id; "document_" = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = PBFileTextField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {CLASS = PBHalfToneButton; LANGUAGE = ObjC; SUPERCLASS = NSButton; }, 
+        {
+            ACTIONS = {
+                addRequirements = id; 
+                addResources = id; 
+                deleteRequirements = id; 
+                deleteResources = id; 
+                editRequirements = id; 
+                openScriptsInEditor = id; 
+                revealResourcesInFinder = id; 
+                revealScriptsInFinder = id; 
+                selectInstallationScriptsPath = id; 
+                switchResourcesLanguage = id; 
+                updateRequirements = id; 
+            }; 
+            CLASS = PBScriptsController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBaddButton_" = id; 
+                "IBchooseButton_" = id; 
+                "IBdeleteButton_" = id; 
+                "IBdeleteResourceButton_" = id; 
+                "IBeditButton_" = id; 
+                "IBrequirementsArray_" = id; 
+                "IBresourcesArray_" = id; 
+                "IBresourcesLanguage_" = id; 
+                "IBscriptsArray_" = id; 
+            }; 
+            SUPERCLASS = PBController; 
+        }, 
+        {
+            ACTIONS = {delete = id; }; 
+            CLASS = PBTableView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTableView; 
+        }
+    ); 
+    IBVersion = 1; 
+}

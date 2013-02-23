@@ -1,0 +1,75 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {addDirectory = id; removeDirectory = id; }; 
+            CLASS = PBBundleIdentifierSearchPlugInController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBaddButton_" = id; 
+                "IBexcludedDirsArray_" = id; 
+                "IBidentifier_" = id; 
+                "IBmaxDepthField_" = id; 
+                "IBmaxDepthStepper_" = id; 
+                "IBremoveButton_" = id; 
+                "IBstartingPoint_" = id; 
+                "IBsuccessCasePopupButton_" = id; 
+            }; 
+            SUPERCLASS = PBSearchPlugInController; 
+        }, 
+        {
+            CLASS = PBBundleVersionFilterPlugInController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBmaxVersion_" = id; "IBminVersion_" = id; }; 
+            SUPERCLASS = PBSearchPlugInController; 
+        }, 
+        {
+            CLASS = PBCheckPathPlugInController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBpath_" = id; }; 
+            SUPERCLASS = PBSearchPlugInController; 
+        }, 
+        {
+            CLASS = PBCommonAppSearchPlugInController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBidentifier_" = id; "IBpath_" = id; }; 
+            SUPERCLASS = PBSearchPlugInController; 
+        }, 
+        {
+            CLASS = PBLaunchServicesLookupPlugInController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBcreator_" = id; "IBidentifier_" = id; }; 
+            SUPERCLASS = PBSearchPlugInController; 
+        }, 
+        {
+            CLASS = PBSearchPlugInController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBview_" = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {endDialog = id; switchSearchMethod = id; }; 
+            CLASS = PBSearchRuleEditorController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBmethodPopupButton_" = id; 
+                "IBnameField_" = id; 
+                "IBokButton_" = id; 
+                "IBwindow_" = id; 
+                "bundleIdentifierSearchController_" = id; 
+                "bundleVersionFilterController_" = id; 
+                "checkPathController_" = id; 
+                "commonAppSearchController_" = id; 
+                "launchServicesLookupController_" = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {delete = id; }; 
+            CLASS = PBTableView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTableView; 
+        }
+    ); 
+    IBVersion = 1; 
+}

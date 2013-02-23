@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%@ - Build Log</key>
+	<string>Log kompilacji - %@ </string>
+	<key>%@ tool not found at "%@"</key>
+	<string>%@ narzędzie nie znalezione w "%@"</string>
+	<key>2 components of "%@" have the same name: "%@"</key>
+	<string>2 komponenty "%@" mają tą samą nazwę: "%@"</string>
+	<key>A project already exists at this location.</key>
+	<string>Projekt o podanej nazwie już istnieje w tej teczce</string>
+	<key>Absolute Path</key>
+	<string>Ścieżka ostateczna</string>
+	<key>Add localization...</key>
+	<string>Dodaj lokalizację...</string>
+	<key>Add...</key>
+	<string>Dodaj</string>
+	<key>An error (%@) occurred during the forks split</key>
+	<string>Błąd (%@) wystąpił podczas rozdzielania</string>
+	<key>Apply</key>
+	<string>Zastosuj</string>
+	<key>At lest one version is required</key>
+	<string>Wymagana jest przynajmniej jedna wersja</string>
+	<key>Build .bom archive failed</key>
+	<string>Kompilacja pliku .bom nieudana</string>
+	<key>Build .pax archive failed</key>
+	<string>kompilacja archiwum .pax nieudana</string>
+	<key>Build cancelled because of unsaved project</key>
+	<string>Kompilacja anulowana z powodu niezapisanego projektu</string>
+	<key>Build failed</key>
+	<string>Kompilacja nieudana</string>
+	<key>Build failed / %@</key>
+	<string>Kompilacja nieudana / %@</string>
+	<key>Build succeeded</key>
+	<string>Kompilacja zakończona pomyślnie</string>
+	<key>Building .bom bills of material</key>
+	<string>Kompilacja zawartości .bom </string>
+	<key>Building .pax archive</key>
+	<string>Kompilacja archiwum .pax</string>
+	<key>Building Metapackage "%@"...</key>
+	<string>Kompilacja Metapakietu "%@"…</string>
+	<key>Building Package "%@"...</key>
+	<string>Kompilacja Pakietu "%@"…</string>
+	<key>Building files archive hierarchy</key>
+	<string>Kompilacja hierarchii plików w archiwum</string>
+	<key>Building metapackage "%@"</key>
+	<string>Kompilacja metapakietu "%@"</string>
+	<key>Building package "%@"</key>
+	<string>Kompilacja pakietu "%@"</string>
+	<key>Building project "%@"</key>
+	<string>Kompilacja projektut "%@"</string>
+	<key>Building requirements</key>
+	<string>Wymagania kompilacji</string>
+	<key>Building...</key>
+	<string>Kompiluję...</string>
+	<key>Can't change the permissions of path "%@"</key>
+	<string>Nie mogę zmienić uprawnień ścieżki "%@"</string>
+	<key>Can't copy file "%@" from folder "%@" to folder "%@"</key>
+	<string>Nie mogę skopiować pliku "%@" z teczki "%@" do teczki "%@"</string>
+	<key>Can't copy file: "%@"</key>
+	<string>Nie mogę skopiować pliku: "%@"</string>
+	<key>Can't create file "%@" in folder "%@"</key>
+	<string>Nie mogę utwożyć pliku "%@" w teczce "%@"</string>
+	<key>Can't create file: "%@"</key>
+	<string>Nie mogę utwożyć pliku: "%@"</string>
+	<key>Can't create folder "%@" in folder "%@"</key>
+	<string>Nie mogę utwożyć teczki "%@" w teczce "%@"</string>
+	<key>Can't create folder: "%@"</key>
+	<string>Nie mogę utwożyć teczki: "%@"</string>
+	<key>Can't remove file "%@" from folder "%@"</key>
+	<string>Nie mogę usunąć pliku "%@" z teczki "%@"</string>
+	<key>Can't remove file: "%@"</key>
+	<string>Nie mogę usunąć pliku: "%@"</string>
+	<key>Cancel</key>
+	<string>Poniechaj</string>
+	<key>Cant copy package</key>
+	<string>Iceberg nie był w stanie skopiować "%@" do teczki "Pakietów zaimportowanych". Sprawdź uprawnienia pliku.</string>
+	<key>Cant create the Imported Packages</key>
+	<string>Iceberg nie był w stanie utwożyć teczki "Pakietów zaimportowanych" w "%@". Sprawdź czy posiadasz odpowiednie uprawnienia aby wykonać tego typu operację.</string>
+	<key>Cant remove previous package</key>
+	<string>Iceberg nie był w stanie usunąć wcześniejszej wersji "%@". Sprawdź uprawnienia pliku.</string>
+	<key>Check that the "%@" file is really a PackageMaker project.</key>
+	<string>Sprawdź czy "%@" napewno jest projektem programu PackageMaker.</string>
+	<key>Check that you have write privileges for "%@".</key>
+	<string>Sprawdź czy masz uprawnienia zapisu dla "%@".</string>
+	<key>Choose</key>
+	<string>Wybierz</string>
+	<key>Clean</key>
+	<string>Wyczyść</string>
+	<key>Clean Succeeded</key>
+	<string>Czyszczenie zakończone powodzeniem</string>
+	<key>Clean succeeded</key>
+	<string>Czyszczenie zakończone powodzeniem</string>
+	<key>Cleaning scratch folder</key>
+	<string>Czyszczenie teczki</string>
+	<key>Cleaning scratch folder failed</key>
+	<string>Czyszczenie nie powiodło się</string>
+	<key>Component not found</key>
+	<string>Nie znaleziono komponentu</string>
+	<key>Components</key>
+	<string>Komponenty</string>
+	<key>Copying .bom bills of material</key>
+	<string>Kopiowanie zawartości .bom </string>
+	<key>Copying .pax archive</key>
+	<string>Kopiowanie archiwum .pax</string>
+	<key>Copying additional resources</key>
+	<string>Kopiowanie dodatkowej zawartości</string>
+	<key>Copying background image "%@"</key>
+	<string>Kopiowanie obrazka tła "%@"</string>
+	<key>Copying plugins</key>
+	<string>Kopiowanie wtyczek</string>
+	<key>Copying readme message</key>
+	<string>Kopiowanie wiadomości Przeczytaj</string>
+	<key>Copying scripts</key>
+	<string>Kopiowanie skryptów</string>
+	<key>Copying welcome message</key>
+	<string>Kopiowanie wiadomości Witamy</string>
+	<key>Creating Description.plist files</key>
+	<string>Twożenie plików Description.plist </string>
+	<key>Creating Info.plist file</key>
+	<string>Twożenie pliku Info.plist</string>
+	<key>Creating TokensDefinitions.plist file</key>
+	<string>Twożenie plikuTokensDefinitions.plist</string>
+	<key>Creating bom for "%@"...</key>
+	<string>Twożenie bom "%@"…</string>
+	<key>Creating package_version file</key>
+	<string>Twożenie pliku package_version</string>
+	<key>Creating pax for "%@"...</key>
+	<string>Twożenie archiwum pax "%@"…</string>
+	<key>Custom folder</key>
+	<string>Teczka własna</string>
+	<key>Delete</key>
+	<string>Wykasuj</string>
+	<key>Delete Component</key>
+	<string>Wykasuj komponent</string>
+	<key>Delete Component &amp; File</key>
+	<string>Wykasuj komponent i plik</string>
+	<key>Delete Components</key>
+	<string>Wykasuj komponenty</string>
+	<key>Delete Components &amp; Files</key>
+	<string>Wykasuj komponenty i pliki</string>
+	<key>Developer Tools not installed message</key>
+	<string>Iceberg nie znalazł teczki /Developer. Narzędzia deweloperskie prawdopodobnie nie są zainstalowane. Funkcja "Split Forks if needed" nie będzie używana podczas kompilacji.</string>
+	<key>Developer Tools not installed title</key>
+	<string>Narzędzia deweloperskie nie są zainstalowane na tym komputerze,</string>
+	<key>Do you really want to delete these components?</key>
+	<string>Czy napewno chcesz wykasować te komponenty?</string>
+	<key>Do you really want to delete this component?</key>
+	<string>Czy napewno chcesz wykasować ten komponent?</string>
+	<key>Do you really want to remove these Plugins?</key>
+	<string>Czy napewno chcesz usunąć te wtyczki?</string>
+	<key>Do you really want to remove these directories from the list?</key>
+	<string>Czy napewno chcesz usunąć te katalogi z listy?</string>
+	<key>Do you really want to remove these items?</key>
+	<string>Czy napewno chcesz usunąć te rzeczy?</string>
+	<key>Do you really want to remove these requirements?</key>
+	<string>Czy napewno chcesz usunąć te wymagania?</string>
+	<key>Do you really want to remove these rules?</key>
+	<string>Czy napewno chcesz usunąć te regóły?</string>
+	<key>Do you really want to remove this Plugin?</key>
+	<string>Czy napewno chcesz usunąć cta wtyczkę?</string>
+	<key>Do you really want to remove this directory from the list?</key>
+	<string>Czy napewno chcesz usunąć ten katalog z listyt?</string>
+	<key>Do you really want to remove this item?</key>
+	<string>Czy napewno chcesz usunąć zaznaczone?</string>
+	<key>Do you really want to remove this localization?</key>
+	<string>Czy napewno chcesz usunąć tą lokalizację?</string>
+	<key>Do you really want to remove this requirement?</key>
+	<string>Czy napewno chcesz usunąć te wymagania?</string>
+	<key>Do you really want to remove this rule?</key>
+	<string>Czy napewno chcesz usunąć tą regółę?</string>
+	<key>Do you want to apply the modifications made on the Background Image settings?</key>
+	<string>Czy zastosować zmiany obrazka tła?</string>
+	<key>Do you want to save the changes you made in the project "%@" before building it?</key>
+	<string>Czy chcesz zapisać zmiany w projekcie "%@" przed kompilacją?</string>
+	<key>Plugins</key>
+	<string>Wtyczki</string>
+	<key>Documents</key>
+	<string>Dokumenty</string>
+	<key>Don't Apply</key>
+	<string>Nie zastosowuj</string>
+	<key>Don't Save</key>
+	<string>Nie zapisuj</string>
+	<key>Empty selection</key>
+	<string>Puste zaznaczenie</string>
+	<key>Error during copy</key>
+	<string>Błąd podczas kopiowania</string>
+	<key>Error during import</key>
+	<string>Błąd podczas importu</string>
+	<key>File</key>
+	<string>Plik</string>
+	<key>File "%@" does not exist at path "%@"</key>
+	<string>Plik "%@" nie istnieje w podanej ścieżce "%@"</string>
+	<key>File does not exist: "%@"</key>
+	<string>Plik nie istnieje: "%@"</string>
+	<key>Files</key>
+	<string>Pliki</string>
+	<key>Files Imported Packages exists</key>
+	<string>Iceberg nie mógł utwożyć teczki "Pakiety zaimportowane" w "%@" ponieważ podana nazwa już istnieje.</string>
+	<key>Finish</key>
+	<string>Zakończ</string>
+	<key>FinishUp</key>
+	<string>Dokończ</string>
+	<key>Folder</key>
+	<string>Teczka</string>
+	<key>General:</key>
+	<string>Ogólne:</string>
+	<key>Hide Build Log Window</key>
+	<string>Ukryj okno loga kompilacji</string>
+	<key>Hide Hierarchy</key>
+	<string>Ukryj hierarchię</string>
+	<key>IFInstallationScriptsPostflight</key>
+	<string>postflight</string>
+	<key>IFInstallationScriptsPostinstall</key>
+	<string>postinstall</string>
+	<key>IFInstallationScriptsPostupgrade</key>
+	<string>postupgrade</string>
+	<key>IFInstallationScriptsPreflight</key>
+	<string>preflight</string>
+	<key>IFInstallationScriptsPreinstall</key>
+	<string>preinstall</string>
+	<key>IFInstallationScriptsPreupgrade</key>
+	<string>preupgrade</string>
+	<key>IFPkgFlagAllowBackRev</key>
+	<string>Zezwól na powrót do poprzedniej wersji</string>
+	<key>IFPkgFlagFollowLinks</key>
+	<string>Podążaj za linkami symboli</string>
+	<key>IFPkgFlagInstallFat</key>
+	<string>Zainstaluj binarki w formacie FAT</string>
+	<key>Required</key>
+	<string>Wymagane</string>
+	<key>IFPkgFlagIsRequired</key>
+	<string>Wymagane</string>
+	<key>IFPkgFlagOverwritePermissions</key>
+	<string>Uprawnienia nadpisania katalogu</string>
+	<key>IFPkgFlagRelocatable</key>
+	<string>Przemieszczalne</string>
+	<key>IFPkgFlagRootVolumeOnly</key>
+	<string>Tylko wolumin Root</string>
+	<key>IFPkgFlagUpdateInstalledLanguages</key>
+	<string>Odnów tylko zainstalowane języki</string>
+	<key>Iceberg can't find the "%@".nib resource file.</key>
+	<string>Iceberg nie może znaleźć pliku "%@".nib</string>
+	<key>Iceberg does not support Distribution List yet.</key>
+	<string>Iceberg jeszcze nie wspiera Distribution Script.</string>
+	<key>Iceberg is not able to create the project folder.</key>
+	<string>Iceberg nie może utwożyć teczki projektu.</string>
+	<key>Iceberg is not able to duplicate the template.</key>
+	<string>Iceberg nie jest w stanie zduplikować szablon.</string>
+	<key>Iceberg is not able to import this project.</key>
+	<string>Iceberg nie jest w stanie zaimportować ten projekt</string>
+	<key>Iceberg will stop running to avoid improper behavior.
+You should check that the application has not been corrupted.</key>
+	<string>Iceberg zostanie wyłączony aby zapobiec nieprzewidzianym zachowaniom.
+You should check that the application has not been corrupted.</string>
+	<key>Import</key>
+	<string>Import</string>
+	<key>Import aborted</key>
+	<string>Import anulowany</string>
+	<key>Import stopped</key>
+	<string>Import zatrzymany</string>
+	<key>Imported Package</key>
+	<string>Pakiet zaimportowany</string>
+	<key>Incorrect file type: "%@"</key>
+	<string>Nieprawidłowy typ pliku: "%@"</string>
+	<key>Install</key>
+	<string>Instaluj</string>
+	<key>Insufficient privileges</key>
+	<string>Niewystarczające uprawnienia</string>
+	<key>Insufficient privileges set</key>
+	<string>Niewystarczające uprawnienia</string>
+	<key>Introduction</key>
+	<string>Wprowadzenie</string>
+	<key>License</key>
+	<string>Licencja</string>
+	<key>License template: "%@" is missing.</key>
+	<string>Brak szablonu: "%@" .</string>
+	<key>Metapackage</key>
+	<string>Metapakiet</string>
+	<key>Missing information (%@)</key>
+	<string>Brakuje informacji (%@)</string>
+	<key>Mixed</key>
+	<string>Mieszane</string>
+	<key>Multiple Selection</key>
+	<string>Wielokrotne zaznaczenie</string>
+	<key>Multiple selection</key>
+	<string>Wielokrotne zaznaczenie</string>
+	<key>New %@</key>
+	<string>Nowy %@</string>
+	<key>New %@ Package</key>
+	<string>Nowy %@ Pakiet</string>
+	<key>New Project</key>
+	<string>Nowy Projekt</string>
+	<key>Next</key>
+	<string>Następny</string>
+	<key>No Selection</key>
+	<string>Brak zaznaczenia</string>
+	<key>No description available.</key>
+	<string>Opis niedostępny</string>
+	<key>No signal from Iceberg Control Tower</key>
+	<string>Brak sygnału z Iceberg Control Tower</string>
+	<key>One of the path values for the excluded directories is incorrect</key>
+	<string>Jedna ze ścieżek wyłączonych katalogów jest nieprawidłowa</string>
+	<key>Out of Memory</key>
+	<string>Brak pamięci</string>
+	<key>Out of memory</key>
+	<string>Brak pamięci</string>
+	<key>Package</key>
+	<string>Pakiet</string>
+	<key>PackageSelection</key>
+	<string>Typ instalacji</string>
+	<key>Permissions issues when working with path "%@"</key>
+	<string>Zawartość uprawnień podczas pracy ze ścieżką "%@"</string>
+	<key>Please check the creator code you entered and fix it.</key>
+	<string>Proszę sprawdzić wprowadzony kod i ew. poprawić go</string>
+	<key>Please check the identifier you entered and fix it.</key>
+	<string>Proszę sprawdzić wprowadzony identyfikator i ew. poprawić go</string>
+	<key>Please check the path you entered and fix it.</key>
+	<string>Proszę sprawdzić wprowadzoną ścieżkę i ew. poprawić ją</string>
+	<key>Please check the paths you entered and fix them.</key>
+	<string>Proszę sprawdzić wprowadzone ścieżki i ew. poprawić je</string>
+	<key>Please enter a different name.</key>
+	<string>Proszę podać inną nazwę</string>
+	<key>Please select another location for the project.</key>
+	<string>Proszę wybrać inną teczkę dla tego Projektu</string>
+	<key>Please select another project path.</key>
+	<string>Proszę wybrać inną ścieżkę projektu</string>
+	<key>Preparing build folder</key>
+	<string>Przygotowanie teczki kompilacji</string>
+	<key>Project</key>
+	<string>Projekt</string>
+	<key>Project Relative</key>
+	<string>Projekt pokrewny</string>
+	<key>Project Settings</key>
+	<string>Ustawienia Projektu</string>
+	<key>ReadMe</key>
+	<string>Przecztaj</string>
+	<key>Recommends</key>
+	<string>Zalecenia</string>
+	<key>Remove</key>
+	<string>Usuń</string>
+	<key>Remove...</key>
+	<string>Usuń...</string>
+	<key>Wymagane</key>
+	<string>Odpowiedni</string>
+	<key>Requires</key>
+	<string>Odpowiednie</string>
+	<key>Save</key>
+	<string>Zachowaj</string>
+	<key>Scratch folder "@" is not on a HFS volume</key>
+	<string>Teczka "@" nie jest na partycji typu HFS</string>
+	<key>Scratch folder does not exist at path: %@</key>
+	<string>Teczka nie istnieje w ścieżce: %@</string>
+	<key>Scripts</key>
+	<string>Skrypty</string>
+	<key>Search Rules:</key>
+	<string>Regóły wyszukiwania:</string>
+	<key>Selected</key>
+	<string>Zaznaczone</string>
+	<key>Settings</key>
+	<string>Ustawienia</string>
+	<key>Show Build Log Window</key>
+	<string>Pokaż okno loga kompilacji</string>
+	<key>Show Hierarchy</key>
+	<string>Pokaż hierarchię</string>
+	<key>Some components to be deleted refer to .pkg files on your disk. If you wish, the related files can be deleted.
+
+This cannot be undone.</key>
+	<string>Niektóre usuwane komponenty odwołują się do plików ,pkg na dysku. Jeśli chcesz, pliki te mogą zostać wykasowane.
+
+This cannot be undone.</string>
+	<key>SplitForks tool not found message</key>
+	<string>Iceberg nie znalazł narzędzia SplitForks w teczce /Developer/Tools. Funkcja "Split Forks " nie będzie używana podczas kompilacji.</string>
+	<key>SplitForks tool not found title</key>
+	<string>Nie odnaleziono narzędzia SplitForks</string>
+	<key>Splitting forks</key>
+	<string>Splitting forks</string>
+	<key>Splitting forks for "%@"...</key>
+	<string>Splitting forks dla "%@"…</string>
+	<key>Standard folder</key>
+	<string>Teczka standardowa</string>
+	<key>Symbolic link</key>
+	<string>Link symboliczny</string>
+	<key>Target</key>
+	<string>Wybrane miejsce docelowe</string>
+	<key>The "%@" localization already exists</key>
+	<string>Lokalizacja "%@" już istnieje</string>
+	<key>The Background Image alignment or/and scaling settings have been modified via the contextual menu.</key>
+	<string>Ustawienia obrazu tła zostały zmienione poprzez menu kontekstowe.</string>
+	<key>The Iceberg Control Tower is not responding. Iceberg can't build any project when this Daemon is not running.</key>
+	<string>Iceberg Control Tower nie odpowiada. Iceberg nie może skompilować żadnego projektu gdz ten Daemon nie pracuje.</string>
+	<key>The PackageMaker project you specified does not exist.</key>
+	<string>Wskazany Projekt programu PackageMaker nie istnieje.</string>
+	<key>The component to be deleted refers to a .pkg file on your disk. If you wish, the related file can be deleted.
+
+This cannot be undone.</key>
+	<string>Niektóre usuwane komponenty odwołują się do plików ,pkg na dysku. Jeśli chcesz, pliki te mogą zostać wykasowane.
+
+</string>
+	<key>The creator code is incorrect</key>
+	<string>Wprowadzony kod jest nieprawidłowy</string>
+	<key>The identifier value is incorrect</key>
+	<string>The identifier value is incorrect</string>
+	<key>The path value is incorrect</key>
+	<string>Ścieżka jest nieprawidłowa</string>
+	<key>The project directory you specified does not exist.</key>
+	<string>Wskazany katalog projektu nie istnieje.</string>
+	<key>The project directory you specified is not a directory.</key>
+	<string>Wskazany katalog nie jest katalogiem</string>
+	<key>This cannot be undone.</key>
+	<string>Nie można cofnąć</string>
+	<key>Two components of the same metapackage have the same name "%@"</key>
+	<string>Dwa komponenty metapakietu mają tą samą nazwę "%@"</string>
+	<key>Type of file "%@" at path "%@" is not correct</key>
+	<string>Typ pliku "%@" w katalogu "%@" jest nieprawidłowy</string>
+	<key>Unknown error</key>
+	<string>Nieznany błąd</string>
+	<key>Unknown error occurred (%@)</key>
+	<string>Wystąpił nieznany błąd (%@)</string>
+	<key>Unselected</key>
+	<string>Niezaznaczone</string>
+	<key>Untitled Component</key>
+	<string>komponent bez nazwy</string>
+	<key>Untitled Folder</key>
+	<string>teczka bez nazwy</string>
+	<key>Untitled Requirement</key>
+	<string>warunek bez nazwy</string>
+	<key>Untitled Rule</key>
+	<string>Regóła bez nazwy</string>
+	<key>You need to provide at least one of the value : either the minimum or maximum version.</key>
+	<string>Musisz wprowadzić przynajmniej jedną wartość : wersja minimum lub maksiimum.</string>
+	<key>clean message</key>
+	<string>Czyszczenie usunie wszystkie pakietz i metapakiety z teczki kompilacji</string>
+	<key>clean title</key>
+	<string>Ostrzeżenie</string>
+</dict>
+</plist>

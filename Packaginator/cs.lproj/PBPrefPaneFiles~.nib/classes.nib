@@ -1,0 +1,32 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = PBActionPopUpButton; LANGUAGE = ObjC; SUPERCLASS = NSPopUpButton; }, 
+        {CLASS = PBFileTextField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {
+            ACTIONS = {changeDefaults = id; }; 
+            CLASS = PBPreferencePaneController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBview_" = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = PBPreferencePaneFilesController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBdefaultKeepPermissionsMode_" = id; 
+                "IBdefaultReferenceStylePopUpButton_" = id; 
+                "IBshowCustomizationDialog_" = id; 
+                "IBsplitForksToolName_" = id; 
+            }; 
+            SUPERCLASS = PBPreferencePaneController; 
+        }, 
+        {
+            ACTIONS = {delete = id; }; 
+            CLASS = PBTableView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTableView; 
+        }
+    ); 
+    IBVersion = 1; 
+}

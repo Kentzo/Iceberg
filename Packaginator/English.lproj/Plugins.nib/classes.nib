@@ -1,0 +1,29 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {
+            CLASS = PBController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBview_" = id; "document_" = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = PBFileTextField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {CLASS = PBHalfToneButton; LANGUAGE = ObjC; SUPERCLASS = NSButton; }, 
+        {CLASS = PBHalfToneButtonCell; LANGUAGE = ObjC; SUPERCLASS = NSButtonCell; }, 
+        {
+            ACTIONS = {addPlugin = id; removePlugin = id; revealInFinder = id; updatePlugIns = id; }; 
+            CLASS = PBPluginsController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"IBaddButton_" = id; "IBarray_" = id; "IBdeleteButton_" = id; }; 
+            SUPERCLASS = PBController; 
+        }, 
+        {
+            ACTIONS = {delete = id; }; 
+            CLASS = PBTableView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTableView; 
+        }
+    ); 
+    IBVersion = 1; 
+}

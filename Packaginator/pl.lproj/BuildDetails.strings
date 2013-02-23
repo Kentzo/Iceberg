@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Detail 1024</key>
+	<string>Wystąpił nieznany błąd, jeśli szukasz więcej informacji, to to nie jest dobre miejsce.</string>
+	<key>Detail 1025</key>
+	<string>Wystąpił błąd podczas próby utwożenia teczki. Proszę sprawdzić uprawnienia dysku lub folderu nadrzędnego i czy dysk nie jest tylko do odczytu.</string>
+	<key>Detail 1026</key>
+	<string>Wystąpił błąd podczas próby utwożenia pliku. Proszę sprawdzić uprawnienia dysku lub folderu nadrzędnego i czy dysk nie jest tylko do odczytu.</string>
+	<key>Detail 1027</key>
+	<string>Wystąpił błąd podczas próby kopiowania. Proszę sprawdzić uprawnienia źródła i celu. Dobrym pomysłem było by sprawdzenie czy źródło i cel istnieją.</string>
+	<key>Detail 1028</key>
+	<string>Wystąpił błąd podczas próby usunięcia pliku. Proszę sprawdzić uprawnienia dysku lub folderu nadrzędnego i czy dysk nie jest tylko do odczytu.</string>
+	<key>Detail 1029</key>
+	<string>Plik nie istnieje w tej teczce. Podpowiedź: Zaginione pliki w projekcie są podświetlone na czerwono.</string>
+	<key>Detail 1030</key>
+	<string>Nieprawidłowy typ pliku.</string>
+	<key>Detail 1031</key>
+	<string>Nie masz odpowiednich uprawnień aby kontynuować. Jeśli używasz dołączanego dysku (np USB), taki problem może wystąpić. Zalecana jest praca tylko na dyskach lokalnych.</string>
+	<key>Detail 1032</key>
+	<string>Wystąpił błąd podczas próby ustawienia uprawnień pliku lub teczki. Jeśli używasz dołączanego dysku (np USB), taki problem może wystąpić. Zalecana jest praca tylko na dyskach lokalnych.</string>
+	<key>Detail 1033</key>
+	<string>Brak niektórych informacji w hierarchii projektu. Twój projekt może być uszkodzony. Pliki zawartości projektu Iceberg są plikami XML, możesz je naprawić używając edytora tekstowego.</string>
+	<key>Detail 1034</key>
+	<string>Zabrakło pamięci. Jest to bardzo rzadki błąd, powinieneś pomyśleć o powiekszeniu pamięci RAM w twoim komputerze.</string>
+	<key>Detail 1035</key>
+	<string>Przynajmniej dwie paczki projektu mają tą samą nazwę. Musisz ustalić unikalną nazwę pakietu.</string>
+	<key>Detail 1036</key>
+	<string>Twożenie archiwum pax nie powiodło się. Sprawdź czy nie ustawiłeś jakiś dziwnych uprawnień, właścicieli lub grup na plikach archiwum.</string>
+	<key>Detail 1037</key>
+	<string>Twożeniepliku bom nie powiodło się. Sprawdź czy nie ustawiłeś jakiś dziwnych uprawnień, właścicieli lub grup na plikach archiwum.</string>
+	<key>Detail 1038</key>
+	<string>Wystąpił błąd podczas twożenia tymczasowej teczki używanej do kompilacji projektu. Pomimo tego kompilacja projektu jest OK.</string>
+	<key>Detail 1039</key>
+	<string>Ta teczka nie istnieje pod wskazaną lokacją</string>
+	<key>Detail 1040</key>
+	<string>Brak licencjonowanego szablonu. Sprawdź poprawność instalacji Iceberg. Być może będziesz musiał przeinstalować Iceberg.</string>
+	<key>Detail 1041</key>
+	<string>Wystąpił błąd podczas zapisu pliku na dysku. Sprawdź ilość dostępnego miejsca na dysku i uprawnienia.</string>
+	<key>Detail 1042</key>
+	<string>Teczka nie istnieje na dysku.</string>
+	<key>Detail 1043</key>
+	<string>Narzędzie używane w funkcji SplitForks nie zostało znalezione. Podpowiedź: Funkcja SplitForks jest dostępna tylko gdy są zainstalowane Narzędzia Deweloperskie.</string>
+	<key>Detail 1044</key>
+	<string>Funkcja SplitForks nie działa na partycji innej niż HFS. jeśli teczka jest na dysku dołączanym zauważ, że takie dyski i partycje nie są widziane jako HFS.</string>
+	<key>Detail 1045</key>
+	<string>Wystąpił nieznany błąd podczas operacji podzialu.</string>
+</dict>
+</plist>
